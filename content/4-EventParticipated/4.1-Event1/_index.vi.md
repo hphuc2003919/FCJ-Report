@@ -6,120 +6,90 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài thu hoạch “Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders (Track 1: Gen AI và Dữ liệu)”
 
 ### Mục Đích Của Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+- Khám phá các chiến lược và dịch vụ mới nhất của AWS cho workloads dựa trên generative AI và dữ liệu.
+- Cung cấp những góc nhìn trong ngành từ các giám đốc điều hành và chuyên gia công nghệ.
+- Chia sẻ các best practices để xây dựng nền tảng dữ liệu thống nhất, có khả năng mở rộng trên AWS.
+- Giới thiệu các phương pháp hiện đại như AI-Driven Development Lifecycle (AI-DLC).
+- Làm nổi bật các nguyên tắc bảo mật và vai trò ngày càng phát triển của các AI agents trong việc nâng cao năng suất.
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Eric Yeo** – Country General Manager, Vietnam, Cambodia, Laos & Myanmar, AWS
+- **Dr. Jens Lottner** – CEO, Techcombank
+- **Ms. Trang Phung** – CEO & Co-Founder, U2U Network
+- **Jaime Valles** – VP, General Manager Asia Pacific & Japan, AWS
+- **Jun Kai Loke** – AI/ML Specialist SA, AWS
+- **Kien Nguyen** – Solutions Architect, AWS
+- **Tamelly Lim** – Storage Specialist SA, AWS
+- **Binh Tran** – Senior Solutions Architect, AWS
+- **Taiki Dang** – Solutions Architect, AWS
+- **Michael Armentano** – Principal WW GTM Specialist, AWS
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Khai Mạc và Điểm Then Chốt
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+- Đại diện chính phủ nhấn mạnh hành trình chuyển đổi số của Việt Nam.
+- Các lãnh đạo AWS chia sẻ chiến lược áp dụng cloud trên khu vực Châu Á – Thái Bình Dương.
+- Các câu chuyện khách hàng từ Techcombank và U2U Network làm nổi bật việc triển khai GenAI thực tiễn.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### Thảo Luận: Điều Hướng Cuộc Cách Mạng GenAI
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- Các lãnh đạo từ ELSA Corp, Nexttech Group, và TymeX thảo luận chiến lược đổi mới, tích hợp AI, và thay đổi tổ chức.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### Breakout Tracks (Track 1: GenAI và Dữ liệu)
 
-#### Domain-Driven Design (DDD)
-
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
-
-#### Event-Driven Architecture
-
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+1. **Xây Dựng Nền Tảng Dữ Liệu Thống Nhất trên AWS** – Chiến lược ingestion, lưu trữ, xử lý, và governance để hỗ trợ workloads AI/analytics.
+2. **Triển Khai GenAI và Lộ Trình** – Tầm nhìn của AWS về việc giúp tổ chức áp dụng và mở rộng giải pháp GenAI.
+3. **AI-Driven Development Lifecycle (AI-DLC)** – AI đóng vai trò co-developer trong toàn bộ vòng đời phát triển phần mềm.
+4. **Bảo Mật Ứng Dụng Generative AI** – Best practices về encryption, zero-trust, monitoring, và access control trong stack GenAI.
+5. **Vượt Xa Tự Động Hóa: AI Agents** – Chuyển từ tự động hóa đơn giản sang AI agents tự chủ, học hỏi, và nâng cao năng suất.
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
+#### Chiến Lược
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- GenAI đang tiến từ thử nghiệm sang triển khai ở quy mô doanh nghiệp.
+- Lãnh đạo cần thúc đẩy văn hóa đổi mới trong khi đồng bộ các sáng kiến AI với mục tiêu kinh doanh.
 
-#### Kiến Trúc Kỹ Thuật
+#### Kiến Thức Kỹ Thuật
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- Xây dựng nền tảng dữ liệu có khả năng mở rộng với governance là quan trọng cho workloads AI.
+- AI-DLC giới thiệu paradigm mới: AI là cộng tác viên, không chỉ là công cụ.
+- Bảo mật đa lớp: hạ tầng, mô hình, và ứng dụng.
 
-#### Chiến Lược Hiện Đại Hóa
+#### Xu Hướng Tương Lai
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- AI agents sẽ trở thành đối tác năng suất, không chỉ là công cụ tự động hóa.
+- Dịch vụ cloud-native là nền tảng cho triển khai GenAI mở rộng và bảo mật.
 
 ### Ứng Dụng Vào Công Việc
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- Áp dụng chiến lược nền tảng dữ liệu để cải thiện governance và khả năng mở rộng dữ liệu trong các dự án hiện tại.
+- Khám phá các khái niệm AI-DLC để tăng tốc sự phát triển đồng thời duy trì oversight của con người.
+- Áp dụng phương pháp security-first khi thiết kế hệ thống AI.
+- Nghiên cứu các ứng dụng tiềm năng của AI agents để nâng cao năng suất quy trình làm việc.  
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Tham dự Vietnam Cloud Day 2025 là trải nghiệm bổ ích, mang lại cả góc nhìn chiến lược và kỹ thuật. Sự kết hợp giữa keynotes, thảo luận bàn tròn, và breakout tracks chuyên sâu đã giúp tôi:
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+- Học hỏi trực tiếp từ các chuyên gia AWS và lãnh đạo ngành.
+- Hiểu cách các doanh nghiệp Việt Nam như Techcombank triển khai GenAI.
+- Nắm được kiến thức thực tiễn về bảo mật và mở rộng workloads GenAI.
+- Kết nối với chuyên gia và đồng nghiệp trong cộng đồng cloud và AI.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+### Bài học rút ra
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+- Xây dựng nền tảng dữ liệu vững chắc là bước quan trọng trước khi mở rộng GenAI.
+- Sự đồng bộ của lãnh đạo và văn hóa tổ chức đóng vai trò then chốt trong việc thành công triển khai AI.
+- AI-DLC và AI agents sẽ thay đổi cách vận hành của phát triển phần mềm và quy trình kinh doanh.
+- Bảo mật không thể là sau cùng—phải tích hợp vào mọi tầng của stack GenAI.
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+> Nhìn chung, tham dự Vietnam Cloud Day 2025 mang lại cho tôi những hiểu biết giá trị về generative AI, nền tảng dữ liệu, bảo mật cloud, và vai trò tương lai của AI trong việc thúc đẩy đổi mới và năng suất.

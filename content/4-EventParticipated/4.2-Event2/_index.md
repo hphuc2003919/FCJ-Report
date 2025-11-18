@@ -48,7 +48,7 @@ pre: " <b> 4.2. </b> "
 
 ### Event Experience
 
-Attending the AWS Cloud Mastery Series provided hands-on exposure to Generative AI implementation on AWS. The live demonstrations and expert explanations deepened my understanding of Bedrock capabilities, enhanced my practical skills in prompt engineering and RAG design, and boosted my confidence in building secure and effective GenAI applications.
+Attending the event provided hands-on exposure to Generative AI implementation on AWS. The live demonstrations and expert explanations deepened my understanding of Bedrock capabilities, enhanced my practical skills in prompt engineering and RAG design, and boosted my confidence in building secure and effective GenAI applications.
 
 ### Some event photos
 ![Event photos](/images/IMG_0687.jpg)
