@@ -60,3 +60,28 @@ During my internship, I participated in four events. Each one was a memorable ex
 - Understood how to build AI agents with multi-step workflows using Bedrock Agents.
 - Improved awareness of safety practices such as guardrails and content filtering.
 - Developed hands-on experience through the live demo of constructing a GenAI chatbot.
+
+
+---
+
+### [Event 3](4.3-Event3/)  
+
+&emsp;**Event Name:** AWS Cloud Mastery Series #2 – DevOps on AWS
+
+&emsp;**Date & Time:** 8:30 AM – 5:00 PM, November 17, 2025
+
+&emsp;**Location:** AWS Vietnam Office
+
+&emsp;**Role:** Attendee
+
+&emsp;**Description:**
+This full-day session focused on modern DevOps culture, principles, and hands-on implementation of CI/CD, Infrastructure as Code, container orchestration, monitoring, and operational excellence on AWS. The morning covered DevOps mindset, DORA metrics, AWS CI/CD tools (CodeCommit, CodeBuild, CodeDeploy, CodePipeline), and Infrastructure as Code using CloudFormation and CDK. The afternoon explored containerization with Docker, Amazon ECR, ECS/EKS, App Runner, followed by monitoring and observability using CloudWatch and X-Ray. The event concluded with DevOps best practices, real-world case studies, and career guidance.
+
+&emsp;**Outcomes/Value Gained:**
+
+- Gained a deeper understanding of DevOps culture, DORA metrics, and continuous improvement mindsets.
+- Learned how to design and automate CI/CD pipelines using AWS developer tools.
+- Enhanced skills in Infrastructure as Code with CloudFormation and CDK.
+- Built practical knowledge of container services (ECR, ECS, EKS, App Runner) and microservices deployment strategies.
+- Strengthened ability to monitor and troubleshoot distributed systems using CloudWatch and X-Ray.
+- Understood best practices for incident management, automated testing, deployment strategies, and DevOps transformation.
