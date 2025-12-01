@@ -6,18 +6,6 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
-
 During my internship, I participated in four events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
 
 ### [Event 1](4.1-Event1/)  
@@ -68,14 +56,13 @@ During my internship, I participated in four events. Each one was a memorable ex
 
 &emsp;**Event Name:** AWS Cloud Mastery Series #2 – DevOps on AWS
 
-&emsp;**Date & Time:** 8:30 AM – 5:00 PM, November 17, 2025
+&emsp;**Date & Time:** 8:30 – 5:00, November 17, 2025
 
 &emsp;**Location:** AWS Vietnam Office
 
 &emsp;**Role:** Attendee
 
-&emsp;**Description:**
-This full-day session focused on modern DevOps culture, principles, and hands-on implementation of CI/CD, Infrastructure as Code, container orchestration, monitoring, and operational excellence on AWS. The morning covered DevOps mindset, DORA metrics, AWS CI/CD tools (CodeCommit, CodeBuild, CodeDeploy, CodePipeline), and Infrastructure as Code using CloudFormation and CDK. The afternoon explored containerization with Docker, Amazon ECR, ECS/EKS, App Runner, followed by monitoring and observability using CloudWatch and X-Ray. The event concluded with DevOps best practices, real-world case studies, and career guidance.
+&emsp;**Description:** This event focused on modern DevOps culture, principles, and hands-on implementation of CI/CD, Infrastructure as Code, container orchestration, monitoring, and operational excellence on AWS. The morning covered DevOps mindset, DORA metrics, AWS CI/CD tools (CodeCommit, CodeBuild, CodeDeploy, CodePipeline), and Infrastructure as Code using CloudFormation and CDK. The afternoon explored containerization with Docker, Amazon ECR, ECS/EKS, App Runner, followed by monitoring and observability using CloudWatch and X-Ray. The event concluded with DevOps best practices, real-world case studies, and career guidance.
 
 &emsp;**Outcomes/Value Gained:**
 
@@ -85,3 +72,29 @@ This full-day session focused on modern DevOps culture, principles, and hands-on
 - Built practical knowledge of container services (ECR, ECS, EKS, App Runner) and microservices deployment strategies.
 - Strengthened ability to monitor and troubleshoot distributed systems using CloudWatch and X-Ray.
 - Understood best practices for incident management, automated testing, deployment strategies, and DevOps transformation.
+
+
+---
+
+### [Event 4](4.4-Event4/)  
+
+&emsp;**Event Name:** AWS Cloud Mastery Series #3 – AWS Well-Architected Security Pillar
+
+&emsp;**Date & Time:** 8:30 – 12:00, November 29, 2025
+
+&emsp;**Location:** AWS Vietnam Office
+
+&emsp;**Role:** Attendee
+
+&emsp;**Description:** This event provided a deep dive into the security best practices recommended by AWS across the five core pillars: Identity & Access Management (IAM), Detection, Infrastructure Protection, Data Protection, and Incident Response. The workshop covered modern IAM architecture, multi-account governance, detection and monitoring strategies, network and workload protection, encryption and secrets management, and hands-on approaches to incident response. Real-world examples, demos, and discussions highlighted how organizations in Vietnam can strengthen their cloud security posture using AWS-native services and automation.
+
+&emsp;**Outcomes/Value Gained:**
+
+- Deep understanding of the AWS Security Pillar and how each of the five pillars contributes to a secure cloud architecture.
+- Improved knowledge of modern IAM practices, including Identity Center, permission boundaries, SCPs, and avoiding long-term credentials.
+- Practical experience in continuous monitoring, leveraging CloudTrail, GuardDuty, Security Hub, and EventBridge for detection and alert automation.
+- Clear strategies for securing infrastructure, including VPC segmentation, Security Groups vs NACLs, and protection via WAF, Shield, and Network Firewall.
+- Stronger grasp of data protection principles: KMS key management, encryption patterns, secrets rotation, and data classification.
+- Hands-on insight into incident response workflows, from detecting compromised keys to isolating infected workloads and automating remediation using Lambda and Step Functions.
+- Awareness of common cloud security pitfalls, especially for Vietnamese enterprises transitioning or scaling on AWS.
+- Roadmap for further learning, including preparation toward AWS Security Specialty and Solutions Architect Professional certifications.
