@@ -77,6 +77,16 @@ pre: " <b> 4.3. </b> "
 
 The session provided a complete, end-to-end view of how DevOps is practiced on AWS—from culture and metrics to pipelines, IaC, container deployments, and observability. The hands-on demos and real-world case studies helped clarify how modern engineering teams achieve high velocity, reliability, and operational excellence. The event significantly enhanced my confidence in applying DevOps principles and AWS tools to real projects.
 
+### Lesson Learned
+
+- Infrastructure as Code (IaC) is essential: Using CloudFormation and CDK ensures repeatable, version-controlled infrastructure deployments.
+- CI/CD automation improves reliability.
+- Monitoring & Observability are critical: Tools like CloudWatch, CloudTrail, and X-Ray provide insights into system performance and help quickly detect failures.
+- Integrating security checks, IAM policies, and guardrails into CI/CD pipelines strengthens security posture.
+- Cross-functional teamwork between developers and operations ensures faster delivery and more stable systems.
+- Scripting deployments, rollback mechanisms, and automated testing improve efficiency and reduce downtime.
+- Using ECS, EKS, and Docker allows consistent environments, scaling, and deployment flexibility.
+
 ### Some event photos
 ![Event photos](/images/IMG_0687.jpg)
 

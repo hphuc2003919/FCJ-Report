@@ -23,12 +23,35 @@ pre: " <b> 4.2. </b> "
 
 ### Key Highlights
 
-- Foundation Models (FMs): Comparison of Claude, Llama, and Amazon Titan; criteria for selecting the right FM
-- Prompt Engineering: Chain-of-thought reasoning, few-shot prompting, and optimization techniques
-- Retrieval-Augmented Generation (RAG): Architecture, knowledge base integration, and real-world use cases
-- Bedrock Agents: Multi-step workflow orchestration and tool integrations
-- Guardrails: Safety, filtering, and secure content generation
-- Live Demo: Building a generative AI chatbot using Amazon Bedrock
+#### Foundation Models (FMs) Overview
+
+- Compared Claude, Llama, and Amazon Titan for GenAI use cases
+- Learned criteria for selecting the right foundation model for specific tasks
+
+#### Prompt Engineering
+
+- Explored chain-of-thought reasoning and few-shot prompting
+- Learned optimization techniques to improve AI output quality and reliability
+
+#### Retrieval-Augmented Generation (RAG)
+
+- Understood RAG architecture and integrating enterprise knowledge bases
+- Reviewed real-world use cases combining LLM reasoning with structured knowledge
+
+#### Bedrock Agents
+
+- Learned how to orchestrate multi-step AI workflows
+- Integrated tools and components to automate complex AI tasks
+
+#### Safety & Guardrails
+
+- Implemented safety measures, content filtering, and secure output generation
+- Emphasized responsible AI deployment in production environments
+
+#### Hands-On Demo
+
+- Built a generative AI chatbot using Amazon Bedrock
+- Applied prompt engineering, RAG patterns, and agent workflows in practice
 
 ### Key Takeaways
 
@@ -49,6 +72,14 @@ pre: " <b> 4.2. </b> "
 ### Event Experience
 
 Attending the event provided hands-on exposure to Generative AI implementation on AWS. The live demonstrations and expert explanations deepened my understanding of Bedrock capabilities, enhanced my practical skills in prompt engineering and RAG design, and boosted my confidence in building secure and effective GenAI applications.
+
+### Lesson Learned
+- Selecting the right foundation model (FM) is critical for effective AI solutions.
+- Prompt engineering significantly improves output quality, reliability, and reasoning in GenAI applications.
+- RAG architecture enables combining LLM reasoning with enterprise knowledge for more accurate responses.
+- Bedrock Agents facilitate automation of multi-step workflows and advanced AI tasks.
+- Implementing safety guardrails is essential for responsible AI deployment.
+- Hands-on practice deepens understanding of GenAI workflows and AWS services for building scalable AI solutions.
 
 ### Some event photos
 ![Event photos](/images/IMG_0687.jpg)
