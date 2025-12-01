@@ -5,53 +5,48 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Understand AWS Virtual Private Cloud (VPC) concepts, security, and multi-VPC features.
+- Explore hybrid connectivity options including VPN and DirectConnect.
+- Learn about Load Balancers and traffic management.
+- Participate in Vietnam Cloud Day 2025 for exposure to real-world cloud applications.
+- Complete hands-on labs to reinforce practical VPC and hybrid networking skills.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Module 02-01: AWS Virtual Private Cloud (VPC) concepts and architecture. <br> - Module 02-02: VPC Security and Multi-VPC features (Security Groups, NACLs, VPC Peering, Transit Gateway). <br> - Module 02-03: VPN, DirectConnect, Load Balancers, Extra Resources.             | 16/09/2025 | 16/09/2025      | <https://www.youtube.com/@AWSStudyGroup>
+| 3   | - Hands-on Lab: Amazon VPC and AWS Site-to-Site VPN Workshop   | 17/09/2025 | 17/09/2025      | <https://000003.awsstudygroup.com/> |
+| 4   | - Participate in Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders | 18/09/2025 | 18/09/2025      |  |
+| 6   | - Hands-on Lab: Set up Hybrid DNS with Route 53 Resolver   <br>   | 20/09/2025 | 20/09/2025      | <https://000010.awsstudygroup.com/> |
+
 
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Theory Learned:
 
-* Successfully created and configured an AWS Free Tier account.
+  - Deepened understanding of VPC architecture, including subnets, route tables, and gateways.
+  - Explored VPC security features: Security Groups and Network ACLs.
+  - Learned multi-VPC connectivity and management (VPC Peering, Transit Gateway).
+  - Understood hybrid network connections: VPN and DirectConnect.
+  - Learned about Load Balancer types and use cases.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Hands-on Labs Completed:
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+  - Configured Amazon VPC and Site-to-Site VPN connections.
+  - Implemented Hybrid DNS with Route 53 Resolver for cross-network communication.
 
-* Used AWS CLI to perform basic operations such as:
+- Event Participation:
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+  - Attended Vietnam Cloud Day 2025 to gain insights into GenAI, AWS infrastructure, and enterprise cloud adoption.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Skills Gained:
+
+  - AWS networking fundamentals and VPC management.
+  - Security configuration for cloud resources.
+  - Hybrid connectivity setup and DNS management.
+  - Awareness of real-world cloud solutions and best practices from industry leaders.

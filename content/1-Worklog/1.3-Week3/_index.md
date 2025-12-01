@@ -5,53 +5,37 @@ weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Brainstorm and finalize a project idea for the internship program.
+- Assign roles and responsibilities within the project team.
+- Perform initial planning for project scope, tasks, and milestones.
+- Gain practical experience with AWS networking labs: VPC Peering and Transit Gateway setup.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 1   | - Brainstorm project ideas and decide on the project concept  | 22/09/2025 | 22/09/2025      |
+| 2   | - Assign roles and responsibilities for the project         | 23/09/2025 | 23/09/2025      |
+| 3   | - Initial project planning: define scope, tasks, and milestones | 24/09/2025 | 24/09/2025 |  |
+| 4   | - Hands-on Lab: Setting up VPC Peering between AWS accounts | 25/09/2025 | 25/09/2025  | <https://000019.awsstudygroup.com/> |
+| 5   | - Hands-on Lab: Set up AWS Transit Gateway for multi-VPC connectivity | 26/09/2025 | 26/09/2025      | <https://000020.awsstudygroup.com/> |
 
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Project Planning & Teamwork:
+  - Finalized the project idea.
+  - Defined my role as frontend developer and coordinated tasks with teammates.
+  - Completed initial planning, outlining project requirements, workflow, and timeline.
 
-* Successfully created and configured an AWS Free Tier account.
+- Hands-on Labs Completed:
+  - Configured VPC Peering for secure communication between multiple AWS VPCs.
+  - Implemented AWS Transit Gateway to manage and scale multi-VPC connectivity efficiently.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Skills Gained:
+  - Project planning and team collaboration skills.
+  - Experience with AWS networking features: VPC Peering and Transit Gateway.
+  - Improved understanding of multi-account architecture and connectivity in AWS.

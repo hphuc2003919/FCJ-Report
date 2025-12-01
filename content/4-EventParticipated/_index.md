@@ -96,5 +96,3 @@ During my internship, I participated in four events. Each one was a memorable ex
 - Clear strategies for securing infrastructure, including VPC segmentation, Security Groups vs NACLs, and protection via WAF, Shield, and Network Firewall.
 - Stronger grasp of data protection principles: KMS key management, encryption patterns, secrets rotation, and data classification.
 - Hands-on insight into incident response workflows, from detecting compromised keys to isolating infected workloads and automating remediation using Lambda and Step Functions.
-- Awareness of common cloud security pitfalls, especially for Vietnamese enterprises transitioning or scaling on AWS.
-- Roadmap for further learning, including preparation toward AWS Security Specialty and Solutions Architect Professional certifications.

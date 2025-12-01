@@ -8,21 +8,19 @@ pre: " <b> 1. </b> "
 
 
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
-
-Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
+During my internship with the **First Cloud Journey (FCJ) program**, I completed the program over a period of **12 weeks**. The worklog reflects my weekly activities, learning experiences, and practical applications of AWS services and cloud-related tasks.
 
 **Week 1:** [Getting familiar with AWS, its global infrastructure, management tools, cost optimization, and completing basic hands-on labs.](1.1-week1/)
 
-**Week 2:** [Doing task A...](1.2-week2/)
+**Week 2:** [Studying core AWS networking concepts including VPC architecture, security layers, hybrid connectivity, and completing related hands-on labs.](1.2-week2/)
 
-**Week 3:** [Doing task B...](1.3-week3/)
+**Week 3:** [Brainstorm project idea, assign roles, plan the workflow, and practice advanced networking labs such as VPC Peering and Transit Gateway.](1.3-week3/)
 
-**Week 4:** [Doing task C...](1.4-week4/)
+**Week 4:** [Develop the project’s frontend while learning AWS compute and storage services through EC2, Autoscaling, and storage-focused hands-on labs.](1.4-week4/)
 
-**Week 5:** [Doing task D...](1.5-week5/)
+**Week 5:** [Complete frontend-backend integration, translate AWS blogs, and gain hands-on experience with S3, Glacier, Snow Family, Storage Gateway, Backup, VM Import/Export, and FSx.](1.5-week5/)
 
-**Week 6:** [Doing task E...](1.6-week6/)
+**Week 6:** [Learned AWS security and identity services, applied hands-on labs with Security Hub, IAM, and resource tagging, and optimized EC2 costs using Lambda automation.](1.6-week6/)
 
 **Week 7:** [Doing task G...](1.7-week7/)
 

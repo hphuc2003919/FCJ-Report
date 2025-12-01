@@ -6,42 +6,34 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud Journey program. This will help the FCJ team improve any shortcomings based on the following aspects:
+### Overall Experience
 
-### Overall Evaluation
+Joining the First Cloud Journey program and working on a project with other members during the First Cloud Journey program has been an eye-opening experience. I enjoyed being part of a real-world project that combines cloud services, backend systems, and security-focused file analysis. It gave me the chance to see how different components interact in a distributed system and how important careful planning is for scalability and reliability.
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+### Collaboration and Mentorship 
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+I appreciated the support and guidance from the admin team and team members. They were always ready to explain concepts, answer questions, and give constructive feedback. I especially valued that I was encouraged to try solutions on my own, which helped me develop problem-solving skills and confidence in my abilities.
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+### Skills and Knowledge Gained
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+Through this project, I learned:
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+- How to design and implement a modular multi-service architecture for real-world applications.
+- Practical use of cloud deployment and infrastructure-as-code (Terraform) for creating scalable and reproducible environments.
+- Importance of secure file handling and data persistence in a distributed system.
+- How to integrate frontend, backend, and database services effectively while maintaining clean code structure.
+- Enhanced team collaboration and professional communication, especially when coordinating tasks and reviewing code.
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+### Most Satisfying Aspect
 
----
+The most rewarding part was seeing my contributions directly impact the workflow of the system, whether it was improving a service interaction, handling file validation, or ensuring proper database integration. Successfully solving challenges independently gave me a sense of accomplishment.
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+### Suggestions for Improvement
 
----
+- More structured peer review sessions or code walkthroughs could help interns learn from each other and improve code quality.
+- Occasional team-building or knowledge-sharing sessions could strengthen team relationships and foster cross-learning.
 
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+### Overall Reflection 
+
+This internship and project experience taught me not only technical skills but also the importance of collaboration, feedback, and structured problem-solving. It has reinforced my interest in cloud development and secure software design, and I feel better prepared for future projects in these areas.

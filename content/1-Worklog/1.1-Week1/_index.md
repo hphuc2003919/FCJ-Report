@@ -24,10 +24,10 @@ pre: " <b> 1.1. </b> "
 | 1   | - Read and take note of FCJ program policies and guidelines.  | 08/09/2025 | 08/09/2025      | <https://policies.fcjuni.com/>
 | 2   | - Learn about AWS and its main service groups: <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + Security <br>&emsp; + ... <br>   | 09/09/2025 | 09/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 3   | - Module 01-01: What is Cloud Computing? <br> - Module 01-02: What Makes AWS Different? <br> - Module 01-03: How to Start Your Cloud Journey <br> | 10/09/2025 | 10/09/2025      | <https://www.youtube.com/@AWSStudyGroup> |
-| 4   | - Module 01-04: AWS Global Infrastructure <br> - Module 01-05: AWS Service Management Tools <br> - Module 01-06: Optimizing Costs & Working with AWS Support | 11/09/2025 | 11/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - **Practice:** <br>&emsp; + Create an AWS account <br>&emsp; + Setup Virtual MFA Device <br>&emsp; + Create admin group & admin user <br>&emsp; + Account authentication support <br> | 12/09/2025 | 12/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Create Budgets (Cost, Usage, RI, Savings Plans) <br>&emsp; + Clean Up Budgets <br> | 13/09/2025 | 13/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 7   | - **Practice:** <br>&emsp; + AWS Support Packages <br>&emsp; + Types of support requests <br>&emsp; + Change support package <br>&emsp; + Manage support requests <br> | 14/09/2025 | 14/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Module 01-04: AWS Global Infrastructure <br> - Module 01-05: AWS Service Management Tools <br> - Module 01-06: Optimizing Costs & Working with AWS Support | 11/09/2025 | 11/09/2025      | <https://www.youtube.com/@AWSStudyGroup> |
+| 5   | - **Practice:** <br>&emsp; + Create an AWS account <br>&emsp; + Setup Virtual MFA Device <br>&emsp; + Create admin group & admin user <br>&emsp; + Account authentication support <br> | 12/09/2025 | 12/09/2025      | <https://000001.awsstudygroup.com/> |
+| 6   | - **Practice:** <br>&emsp; + Create Budgets (Cost, Usage, RI, Savings Plans) <br>&emsp; + Clean Up Budgets <br> | 13/09/2025 | 13/09/2025      | <https://000007.awsstudygroup.com/> |
+| 7   | - **Practice:** <br>&emsp; + AWS Support Packages <br>&emsp; + Types of support requests <br>&emsp; + Change support package <br>&emsp; + Manage support requests <br> | 14/09/2025 | 14/09/2025      | <https://000009.awsstudygroup.com/> |
 
 
 ### Week 1 Achievements:

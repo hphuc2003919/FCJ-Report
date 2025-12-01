@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Summary Report: “AWS Cloud Mastery Series #1 – AI/ML/GenAI on AWS”
+# Bài thu hoạch: “AWS Cloud Mastery Series #1 – AI/ML/GenAI on AWS”
 
 ### Mục Đích Của Sự Kiện
 
@@ -23,12 +23,35 @@ pre: " <b> 4.2. </b> "
 
 ### Nội Dung Nổi Bật
 
-- Foundation Models (FMs): Foundation Models (FMs): So sánh Claude, Llama và Amazon Titan; tiêu chí lựa chọn FM phù hợp
-- Prompt Engineering: Chain-of-thought reasoning, few-shot prompting và các kỹ thuật tối ưu hoá
-- Retrieval-Augmented Generation (RAG): Kiến trúc, tích hợp knowledge base và các use case thực tế
-- Bedrock Agents: Workflow orchestration nhiều bước và tích hợp công cụ
-- Guardrails: Safety, filtering và secure content generation
-- Live Demo: Xây dựng chatbot GenAI sử dụng Amazon Bedrock
+#### Tổng quan về Foundation Models (FMs)
+
+- So sánh Claude, Llama và Amazon Titan cho các trường hợp sử dụng GenAI
+- Học các tiêu chí để chọn foundation model phù hợp cho từng nhiệm vụ cụ thể
+
+#### Prompt Engineering
+
+- Khám phá reasoning theo chuỗi suy nghĩ (chain-of-thought) và few-shot prompting
+- Học các kỹ thuật tối ưu hóa để cải thiện chất lượng và độ tin cậy của đầu ra AI
+
+#### Retrieval-Augmented Generation (RAG)
+
+- Hiểu kiến trúc RAG và cách tích hợp cơ sở tri thức doanh nghiệp
+- Xem xét các trường hợp thực tế kết hợp reasoning của LLM với kiến thức có cấu trúc
+
+#### Bedrock Agents
+
+- Học cách điều phối workflow AI đa bước
+- Tích hợp các công cụ và thành phần để tự động hóa các nhiệm vụ AI phức tạp
+
+#### Safety & Guardrails
+
+- Triển khai các biện pháp an toàn, lọc nội dung, và tạo đầu ra bảo mật
+- Nhấn mạnh việc triển khai AI có trách nhiệm trong môi trường production
+
+#### Hands-On Demo
+
+- Xây dựng chatbot Generative AI sử dụng Amazon Bedrock
+- Áp dụng prompt engineering, RAG patterns, và workflow agent trong thực hành
 
 ### Những Gì Học Được
 
@@ -48,7 +71,16 @@ pre: " <b> 4.2. </b> "
 
 ### Trải nghiệm trong event
 
- Việc tham dự event đã mang đến cho tôi cơ hội trải nghiệm thực tế với việc triển khai Generative AI trên AWS. Các demo trực tiếp và phần giải thích chuyên sâu giúp tôi hiểu rõ hơn về khả năng của Bedrock, nâng cao kỹ năng thực hành về prompt engineering và thiết kế RAG, đồng thời tăng sự tự tin trong việc xây dựng các ứng dụng GenAI an toàn và hiệu quả.
+Việc tham dự event đã mang đến cho tôi cơ hội trải nghiệm thực tế với việc triển khai Generative AI trên AWS. Các demo trực tiếp và phần giải thích chuyên sâu giúp tôi hiểu rõ hơn về khả năng của Bedrock, nâng cao kỹ năng thực hành về prompt engineering và thiết kế RAG, đồng thời tăng sự tự tin trong việc xây dựng các ứng dụng GenAI an toàn và hiệu quả.
+
+### Bài Học Rút Ra
+
+- Việc chọn foundation model (FM) phù hợp là yếu tố then chốt để triển khai AI hiệu quả.
+- Prompt engineering cải thiện đáng kể chất lượng, độ tin cậy và khả năng reasoning của ứng dụng GenAI.
+- Kiến trúc RAG giúp kết hợp reasoning của LLM với kiến thức doanh nghiệp để có câu trả lời chính xác hơn.
+- Bedrock Agents hỗ trợ tự động hóa workflow đa bước và các tác vụ AI nâng cao.
+- Triển khai các guardrails an toàn là điều cần thiết để áp dụng AI có trách nhiệm.
+- Thực hành trực tiếp giúp hiểu sâu hơn về workflow GenAI và các dịch vụ AWS để xây dựng các giải pháp AI có khả năng mở rộng.
 
 ### Một số hình ảnh khi tham gia sự kiện
 ![Event photos](/images/IMG_0687.jpg)

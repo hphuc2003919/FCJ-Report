@@ -5,53 +5,79 @@ weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Develop the frontend service for the group project.
+- Strengthen understanding of AWS Compute services, focusing on EC2, storage options, and autoscaling.
+- Explore additional compute-related services: EFS, FSx, Lightsail, and MGN.
+- Complete hands-on labs on AWS Backup, Storage Gateway, and Amazon S3.
+- Start translating blogs.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Whole week   | - Develop the frontend code for the group project   | 29/09/2025 | 03/10/2025      |
+| 1   | - Module 03-01 – Compute VM on AWS: <br>&emsp; + EC2 Instance Types <br>&emsp; + AMI / Backup / Key Pair <br>&emsp; + EBS <br>&emsp; + Instance Store <br>&emsp; + User Data <br>&emsp; + Meta Data <br>&emsp; + EC2 Auto Scaling <br>&emsp;  | 29/09/2025 | 29/09/2025      | <https://www.youtube.com/@AWSStudyGroup> |
+| 2   | - Module 03-02 – EC2 Autoscaling, EFS, FSx, Lightsail, MGN <br> - Hands-on Labs: <br>&emsp; + Deploy AWS Backup to the System <br>&emsp; + Using File Storage Gateway| 30/09/2025 | 30/09/2025 | - <https://cloudjourney.awsstudygroup.com/> <br> - <https://000013.awsstudygroup.com/> <br> - <https://000024.awsstudygroup.com/>      |
+| 3-4   | - Hands-on Lab: Starting with Amazon S3 | 01/10/2025 | 02/10/2025 | <https://000057.awsstudygroup.com/> |
+| 5-7  | - Translating blogs | 03/10/2025 |  |  |
 
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+#### Project Development:
 
-* Successfully created and configured an AWS Free Tier account.
+  - Spent the entire week working on frontend implementation for the group project.
+  - Improved UI structure, layout, and basic component workflows.
+  - Collaborated with team members to align frontend with backend requirements and API design.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+#### AWS Theory Learned:
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+  - Gained an in-depth understanding of Amazon EC2, including:
+  - Instance types for different workloads.
+  - AMIs and backup strategies.
+  - Key pairs and instance authentication.
+  - EBS vs Instance Store and their use cases.
+  - User Data scripting for automation.
+  - Metadata for instance information retrieval.
+  - Learned about EC2 Auto Scaling, how it adapts to load changes automatically.
+  - Explored advanced compute-related services:
+  - EFS for scalable shared file storage.
+  - FSx for high-performance workloads.
+  - Lightsail for simplified cloud hosting.
+  - MGN for migrating servers to AWS.
 
-* Used AWS CLI to perform basic operations such as:
+#### Hands-on Labs Completed:
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+  - Deploy AWS Backup to the System
+  → Learned how to configure backups for EC2, EBS, and other resources.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+  - Using File Storage Gateway
+  → Practiced hybrid storage integration and working with on-premises file systems.
+
+  - Starting with Amazon S3
+  → Understood S3 buckets, versioning, storage classes, encryption, and object lifecycle policies.
+
+#### Other Activities
+
+  - Began translating blogs.
+  - The translation is still in progress.
+
+#### Skills Gained:
+- Technical Skills
+
+  - Strengthened frontend development skills: responsive UI, component design, and user interaction handling.
+  - Gained solid understanding of EC2, AMIs, EBS vs Instance Store, User Data, Metadata, and Auto Scaling.
+  - Learned additional compute/storage services: EFS, FSx, Lightsail, and AWS MGN.
+  - Completed hands-on labs using AWS Backup, File Storage Gateway, and Amazon S3 (bucket creation, versioning, lifecycle, encryption).
+
+- Cloud Architecture Skills
+
+  - Improved ability to select suitable storage solutions (EBS/EFS/S3/FSx).
+  - Learned best practices for scalable and secure compute environments.
+
+- Soft Skills
+
+  - Improved teamwork while developing the project frontend.
+  - Enhanced time management and problem-solving through lab and project tasks.
