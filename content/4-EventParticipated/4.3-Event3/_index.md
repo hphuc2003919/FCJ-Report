@@ -88,6 +88,6 @@ The session provided a complete, end-to-end view of how DevOps is practiced on A
 - Using ECS, EKS, and Docker allows consistent environments, scaling, and deployment flexibility.
 
 ### Some event photos
-![Event photos](/images/IMG_0687.jpg)
+![Event photos](/images/IMG_0690.jpg)
 
 > Overall, the event provided a full-day, hands-on learning experience covering CI/CD, Infrastructure as Code, container technologies, and observability best practices, helping me strengthen my DevOps mindset, technical skills, and understanding of AWS DevOps tooling.
