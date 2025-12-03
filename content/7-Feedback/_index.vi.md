@@ -5,40 +5,35 @@ weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud Journey, giúp team FCJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
-
-### Đánh giá chung
-
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
-
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
-
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
-
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
-
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
-
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
 
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+### Trải nghiệm tổng thể
 
+Tham gia chương trình First Cloud Journey (FCJ) và làm việc cùng các thành viên khác trong dự án là một trải nghiệm mở rộng tầm nhìn rất đáng giá. Tôi rất hào hứng khi được tham gia một dự án thực tế kết hợp các dịch vụ cloud, hệ thống backend và phân tích file tập trung vào bảo mật. Điều này giúp tôi thấy được cách các thành phần khác nhau tương tác trong một hệ thống phân tán và tầm quan trọng của việc lập kế hoạch cẩn thận để đảm bảo khả năng mở rộng và độ tin cậy.
 
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+### Hợp tác và cố vấn
+
+Tôi rất trân trọng sự hỗ trợ và hướng dẫn từ đội ngũ admin cũng như các thành viên trong nhóm. Họ luôn sẵn sàng giải thích các khái niệm, trả lời câu hỏi và đưa ra phản hồi mang tính xây dựng. Tôi đặc biệt đánh giá cao việc được khuyến khích thử nghiệm giải pháp một cách độc lập, điều này giúp tôi phát triển kỹ năng giải quyết vấn đề và tăng sự tự tin vào khả năng của bản thân.
+
+### Kỹ năng và kiến thức đạt được
+
+Thông qua dự án này, tôi đã học được:
+
+- Cách thiết kế và triển khai kiến trúc đa dịch vụ (modular multi-service architecture) cho các ứng dụng thực tế.
+- Sử dụng thực tiễn cloud deployment và infrastructure-as-code (Terraform) để tạo môi trường có khả năng mở rộng và tái lập.
+- Tầm quan trọng của việc xử lý file an toàn và duy trì dữ liệu trong hệ thống phân tán.
+- Cách tích hợp frontend, backend và dịch vụ cơ sở dữ liệu một cách hiệu quả đồng thời duy trì cấu trúc code sạch.
+- Cải thiện khả năng làm việc nhóm và giao tiếp chuyên nghiệp, đặc biệt khi phối hợp nhiệm vụ và review code.
+
+### Điều hài lòng nhất
+
+Phần đáng giá nhất là khi thấy những đóng góp của tôi trực tiếp ảnh hưởng đến workflow của hệ thống, dù đó là cải thiện tương tác giữa các service, xử lý validation file hay đảm bảo tích hợp cơ sở dữ liệu đúng cách. Việc tự mình giải quyết các thách thức thành công đã mang lại cho tôi cảm giác thành tựu lớn.
+
+### Gợi ý cải thiện
+
+- Tổ chức các buổi peer review hoặc walkthrough code có cấu trúc hơn sẽ giúp thực tập sinh học hỏi lẫn nhau và nâng cao chất lượng code.
+- Thỉnh thoảng tổ chức các buổi team-building hoặc chia sẻ kiến thức sẽ tăng cường mối quan hệ trong nhóm và thúc đẩy học hỏi chéo.
+
+### Đánh giá tổng thể
+
+Kinh nghiệm thực tập và tham gia dự án này không chỉ giúp tôi phát triển kỹ năng kỹ thuật mà còn hiểu rõ tầm quan trọng của hợp tác, phản hồi và giải quyết vấn đề có cấu trúc. Nó củng cố hứng thú của tôi với phát triển cloud và thiết kế phần mềm bảo mật, đồng thời giúp tôi chuẩn bị tốt hơn cho các dự án trong tương lai.

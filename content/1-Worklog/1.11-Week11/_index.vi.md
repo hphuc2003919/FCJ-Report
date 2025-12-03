@@ -5,55 +5,33 @@ weight: 2
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 11:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Nâng cao hiểu biết về các nguyên tắc và thực hành DevOps trên AWS.
+- Khám phá hybrid cloud strategies và tích hợp kiến trúc serverless.
+- Học các kỹ thuật cost optimization cho các dự án AWS.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 1   | - Tham dự AWS Cloud Mastery Series #2 – DevOps on AWS   | 17/11/2025 | 17/11/2025      |
+| 2   | - Khám phá hybrid cloud strategies: kết nối cơ sở hạ tầng on-premises với AWS bằng VPN & Direct Connect <br> - Xem xét các use case của AWS Storage Gateway  | 18/11/2025 | 18/11/2025    |
+| 3   | - LHọc cách tích hợp kiến trúc serverless với workflow DevOps <br> - Hands-on Lab: triển khai Lambda functions được kích hoạt bởi sự kiện từ S3 | 19/11/2025 | 19/11/2025      | AWS Lambda Workshop |
+| 5   | - Nghiên cứu các chiến lược cost optimization cho dự án DevOps <br> - Thực hành sử dụng AWS Cost Explorer và Budgets cho multi-account setups | 21/11/2025 | 21/11/2025      | AWS Cost Management resources |
 
 
 ### Kết quả đạt được tuần 11:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Tham dự AWS Cloud Mastery Series #2 và củng cố kiến thức về DevOps, CI/CD pipelines, container orchestration, và monitoring.
+- Hiểu rõ hybrid cloud strategies và cách sử dụng thực tế AWS Storage Gateway.
+- Học cách tích hợp kiến trúc serverless (Lambda) với workflow DevOps qua các lab thực hành.
+- Khám phá các chiến lược cost optimization sử dụng AWS Cost Explorer và Budgets cho môi trường multi-account.
+- Kỹ năng đạt được:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+  - Nguyên tắc DevOps và hiểu biết về DORA metrics.
+  - Thiết lập CI/CD pipelines sử dụng AWS Developer Tools.
+  - Kiến thức về kiến trúc hybrid cloud.
+  - Tích hợp serverless với AWS Lambda trong DevOps workflows.
+  - Giám sát và tối ưu chi phí sử dụng các công cụ AWS.

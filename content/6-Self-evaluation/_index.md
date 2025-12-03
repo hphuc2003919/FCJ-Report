@@ -7,7 +7,7 @@ pre: " <b> 6. </b> "
 ---
 
 
-During my internship at First Cloud Journey (FCJ) from 8/9/2025 to 12/12/2025, I had the opportunity to apply my academic knowledge to a real-world environment while working on the File Analyzer project, a cloud-based multi-service file analysis system. Through this experience, I gained practical exposure to real-world software development, team collaboration, and cloud infrastructure.
+During my internship at **First Cloud Journey (FCJ)** from **8/9/2025 to 12/12/2025**, I had the opportunity to apply my academic knowledge to a real-world environment while working on the File Analyzer project, a cloud-based multi-service file analysis system. Through this experience, I gained practical exposure to real-world software development, team collaboration, and cloud infrastructure.
 
 I tried my best to approach tasks responsibly and maintain professionalism. While I contributed consistently, I also recognized areas where I need further improvement, especially in technical knowledge, communication, and problem-solving skills.
 

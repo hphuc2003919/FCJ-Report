@@ -5,55 +5,34 @@ weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Thực hành với Amazon DynamoDB và xây dựng serverless data lakes.
+- Học cách thiết kế và triển khai analytics pipelines sử dụng các dịch vụ AWS như Kinesis, Glue, EMR, Athena, và QuickSight.
+- Khám phá real-time data streaming, chuyển đổi dữ liệu, quản lý catalog, và trực quan hóa dữ liệu.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Hands-on Labs: <br>&emsp; + Work with Amazon DynamoDB  <br>&emsp; + Build a data lake with your data    | 11/11/2025 | 11/11/2025      | - <https://000060.awsstudygroup.com/> <br> - <https://000070.awsstudygroup.com/>
+| 3   | - Hands-on Lab: Analytics on AWS Workshop | 12/11/2025 | 12/11/2025      | <https://000072.awsstudygroup.com/> |
+| 5   | - Hands-on Lab: Get started with Amazon QuickSight | 14/11/2025 | 14/11/2025      | <https://000073.awsstudygroup.com/> |
+| 6   | - Tham dự AWS Cloud Mastery Series #1 – AI/ML/GenAI on AWS | 15/11/2025 | 15/11/2025      |  |
 
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Thực hành với Amazon DynamoDB và thiết kế serverless data lakes.
+- Xây dựng và quản lý data processing pipelines sử dụng S3, Kinesis, Glue, EMR, và Redshift.
+- Học cách thực hiện chuyển đổi dữ liệu, quản lý catalog, và truy vấn dữ liệu hiệu quả.
+- Thực hành trực quan hóa dữ liệu với Amazon QuickSight.
+- Nâng cao hiểu biết về real-time streaming và analytics workflows trên AWS.
+- Kỹ năng đạt được:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+  - Thiết kế và vận hành DynamoDB.
+  - Xây dựng serverless data lakes và ETL pipelines.
+  - Phân tích và streaming dữ liệu thời gian thực với Kinesis.
+  - Sử dụng AWS Glue để ETL, chuyển đổi và quản lý catalog dữ liệu.
+  - Truy vấn và trực quan hóa dữ liệu bằng Athena và QuickSight.

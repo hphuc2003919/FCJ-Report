@@ -5,54 +5,31 @@ weight: 2
 chapter: false
 pre: " <b> 1.12 </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 ### Mục tiêu tuần 12:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Nâng cao hiểu biết về AWS security best practices thông qua Well-Architected Security Framework.
+- Khám phá các kỹ thuật thực hành về identity, access, detection, infrastructure, và data protection.
+- Trang bị kỹ năng thực tế về incident response automation và giám sát bảo mật trên cloud.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 1   | - Ôn tập AWS Well-Architected Framework và các khái niệm của Security Pillar <br> - Học best practices cho IAM, MFA, SCP, Key Management Service (KMS), và Secrets Manager  | 24/11/2025 | 24/11/2025      |
+| 5   | - Hands-on Lab: triển khai secure IAM architecture, cấu hình roles, policies, và permission boundaries  | 28/11/2025 | 28/11/2025      | 
+| 6   | - Tham dự AWS Cloud Mastery Series #3 – AWS Well-Architected Security Pillar | 29/11/2025 | 29/11/2025   | 
 
 
 ### Kết quả đạt được tuần 12:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Hiểu rõ toàn diện về AWS Well-Architected Security Pillar.
+- Học được best practices cho IAM, KMS, Secrets Manager và enforcement policy.
+- Thực hành triển khai kiến trúc IAM bảo mật và quản lý quyền truy cập.
+- Nâng cao kiến thức về continuous monitoring, bảo vệ mạng và hạ tầng, và incident response automation.
+- Kỹ năng đạt được:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+  - AWS security best practices cho quản lý identity, access, và bảo vệ dữ liệu.
+  - Kinh nghiệm thực hành cấu hình IAM roles, policies, và permission boundaries.
+  - Hiểu biết về giám sát tự động và incident response sử dụng các công cụ AWS.
+  - Nắm vững các nguyên tắc bảo mật cloud trong các tình huống thực tế.

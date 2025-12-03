@@ -5,55 +5,46 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Hiểu các khái niệm AWS VPC, security và multi-VPC features.
+- Khám phá hybrid connectivity gồm VPN và DirectConnect.
+- Học về Load Balancers và traffic management.
+- Tham gia Vietnam Cloud Day 2025 để tiếp cận ứng dụng cloud thực tế.
+- Hoàn thành các hands-on labs để củng cố kỹ năng VPC và hybrid networking.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Module 02-01: AWS Virtual Private Cloud (VPC) concepts and architecture. <br> - Module 02-02: VPC Security and Multi-VPC features (Security Groups, NACLs, VPC Peering, Transit Gateway). <br> - Module 02-03: VPN, DirectConnect, Load Balancers, Extra Resources.             | 16/09/2025 | 16/09/2025      | <https://www.youtube.com/@AWSStudyGroup>
+| 3   | - Hands-on Lab: Amazon VPC and AWS Site-to-Site VPN Workshop   | 17/09/2025 | 17/09/2025      | <https://000003.awsstudygroup.com/> |
+| 4   | - Tham gia Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders | 18/09/2025 | 18/09/2025      |  |
+| 6   | - Hands-on Lab: Set up Hybrid DNS with Route 53 Resolver   <br>   | 20/09/2025 | 20/09/2025      | <https://000010.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Lý thuyết đã học:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+  - Hiểu sâu hơn về VPC architecture: subnets, route tables, gateways.
+  - Nắm vững VPC security gồm Security Groups và NACLs.
+  - Tìm hiểu multi-VPC networking qua VPC Peering và Transit Gateway.
+  - Hiểu hybrid connectivity: VPN và DirectConnect.
+  - Nắm các loại Load Balancers và từng use case.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+- Hands-on Labs đã hoàn thành:
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+  - Tự cấu hình Amazon VPC và Site-to-Site VPN.
+  - Thiết lập Hybrid DNS với Route 53 Resolver cho môi trường kết nối chéo mạng.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+- Tham gia event:
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+  - Tham dự Vietnam Cloud Day 2025, học về GenAI, AWS global infrastructure và cách doanh nghiệp ứng dụng công nghệ cloud.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- Các kỹ năng đạt được:
 
-
+  - Kỹ năng nền tảng về AWS networking và VPC management.
+  - Thiết lập security cho tài nguyên cloud.
+  - Cấu hình hybrid connectivity và DNS resolution.
+  - Hiểu biết thực tế về cloud adoption và best practices từ industry leaders.

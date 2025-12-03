@@ -28,21 +28,21 @@ pre: " <b> 1.4. </b> "
 
 #### Project Development:
 
-  - Spent the entire week working on frontend implementation for the group project.
-  - Improved UI structure, layout, and basic component workflows.
-  - Collaborated with team members to align frontend with backend requirements and API design.
+- Spent the entire week working on frontend implementation for the group project.
+- Improved UI structure, layout, and basic component workflows.
+- Collaborated with team members to align frontend with backend requirements and API design.
 
 #### AWS Theory Learned:
 
-  - Gained an in-depth understanding of Amazon EC2, including:
+- Gained an in-depth understanding of Amazon EC2, including:
   - Instance types for different workloads.
   - AMIs and backup strategies.
   - Key pairs and instance authentication.
   - EBS vs Instance Store and their use cases.
   - User Data scripting for automation.
   - Metadata for instance information retrieval.
-  - Learned about EC2 Auto Scaling, how it adapts to load changes automatically.
-  - Explored advanced compute-related services:
+- Learned about EC2 Auto Scaling, how it adapts to load changes automatically.
+- Explored advanced compute-related services:
   - EFS for scalable shared file storage.
   - FSx for high-performance workloads.
   - Lightsail for simplified cloud hosting.
@@ -50,19 +50,19 @@ pre: " <b> 1.4. </b> "
 
 #### Hands-on Labs Completed:
 
-  - Deploy AWS Backup to the System
+- Deploy AWS Backup to the System
   → Learned how to configure backups for EC2, EBS, and other resources.
 
-  - Using File Storage Gateway
+- Using File Storage Gateway
   → Practiced hybrid storage integration and working with on-premises file systems.
 
-  - Starting with Amazon S3
+- Starting with Amazon S3
   → Understood S3 buckets, versioning, storage classes, encryption, and object lifecycle policies.
 
 #### Other Activities
 
-  - Began translating blogs.
-  - The translation is still in progress.
+- Began translating blogs.
+- The translation is still in progress.
 
 #### Skills Gained:
 - Technical Skills

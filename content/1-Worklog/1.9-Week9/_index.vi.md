@@ -5,55 +5,33 @@ weight: 1
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 9:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Ôn tập các khái niệm cơ bản về cơ sở dữ liệu và các dịch vụ cơ sở dữ liệu của AWS.
+- Học và thực hành với Amazon RDS, Amazon Aurora, Redshift, Elasticache, và DynamoDB.
+- Hiểu kiến trúc data lake và tối ưu chi phí/hiệu suất bằng AWS Glue và Athena.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 1   | - Module 06-01: Database Concepts review <br> - Module 06-02: Amazon RDS & Amazon Aurora <br> - Module 06-03: Redshift - Elasticache  | 03/11/2025 | 03/11/2025      | <https://www.youtube.com/@AWSStudyGroup>
+| 3   | - Hands-on Lab: Amazon Relational Database Service (Amazon RDS) | 05/11/2025 | 05/11/2025      | <https://000005.awsstudygroup.com/> |
+| 4   | - Hands-on Lab: Data Lake on AWS | 06/11/2025 | 06/11/2025      | <https://000035.awsstudygroup.com/> |
+| 4-5   | - Hands-on Lab: Amazon DynamoDB Immersion Day | 06/11/2025 | 07/11/2025      | <https://000039.awsstudygroup.com/> |
+| 6   | - Hands-on Lab: Cost and performance analysis with AWS Glue and Amazon Athena | 08/11/2025 | 08/11/2025      | <https://000040.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 9:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Ôn tập kiến thức cơ bản về cơ sở dữ liệu và các dịch vụ relational và NoSQL của AWS.
+- Thực hành và quản lý thực tế với Amazon RDS, Aurora, Redshift, Elasticache, và DynamoDB.
+- Hiểu được thiết kế data lake, quy trình ETL bằng AWS Glue, và truy vấn/phân tích dữ liệu với Amazon Athena.
+- Nâng cao khả năng đánh giá chi phí và hiệu suất của các giải pháp cơ sở dữ liệu trên AWS.
+- Kỹ năng đạt được:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+  - Thiết kế và quản lý cơ sở dữ liệu trên AWS.
+  - Cấu hình và sử dụng RDS, Aurora, Redshift, Elasticache.
+  - Thực hành tốt nhất với DynamoDB thông qua trải nghiệm Immersion Day.
+  - Hiểu kiến trúc data lake và phân tích chi phí/hiệu suất bằng Glue và Athena.

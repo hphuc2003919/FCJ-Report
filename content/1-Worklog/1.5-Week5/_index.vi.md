@@ -5,55 +5,36 @@ weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Hoàn thiện và tích hợp frontend code với backend services (Processing Service và Query Service).
+- Hoàn thành dịch các blog liên quan đến AWS.
+- Học sâu về các dịch vụ lưu trữ của AWS: S3, Glacier, Snow Family, Storage Gateway, Backup và FSx.
+- Thực hành hands-on với VM Import/Export và Amazon FSx for Windows File Server.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 1-3   | - Hoàn thiện và tích hợp frontend code với Processing Service và Query Service | 06/10/2025 | 08/10/2025      |
+| 1-2   | - Dịch Blog 1, 2 và 3 | 06/10/2025 | 07/10/2025      |  |
+| 3   | - Module 04-01: AWS Storage Services Overview <br> - Module 04-02: Amazon S3 – Access Points & Storage Classes <br> - Module 04-03: S3 Static Website, CORS, Access Control, Object Keys & Performance, Glacier <br> - Module 04-04: Snow Family, Storage Gateway, AWS Backup | 08/10/2025 | 08/10/2025      | <https://www.youtube.com/@AWSStudyGroup> |
+| 4   | - Hands-on Lab: VM Import/Export | 09/10/2025 | 09/10/2025      | <https://000014.awsstudygroup.com/> |
+| 5-6   | - Hands-on Lab: Amazon FSx for Windows File Server | 10/10/2025 | 11/10/2025      | <https://000025.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Hoàn thành và tích hợp thành công frontend với Processing Service và Query Service, đảm bảo luồng dữ liệu hoạt động mượt mà.
+- Dịch xong Blog 1, 2 và 3.
+- Nắm vững các tính năng của Amazon S3, bao gồm access points, storage classes, static website hosting, CORS, Glacier và các phương thức quản lý dữ liệu.
+- Tìm hiểu Snow Family, Storage Gateway và AWS Backup nhằm triển khai giải pháp hybrid và cloud storage.
+- Hoàn thành hands-on labs:
+  - VM Import/Export
+  - Amazon FSx for Windows File Server
+- Thực hành quản lý file storage, migrate VM và cấu hình các giải pháp lưu trữ cloud-native.
+- Kỹ năng đạt được:
+  - Frontend-backend integration và kỹ năng troubleshooting.
+  - Hiểu rõ kiến trúc và use cases của các AWS Storage Services.
+  - Kinh nghiệm thực hành với VM migration và triển khai FSx.
+  - Kiến thức về storage security, access control và tối ưu hiệu năng.
