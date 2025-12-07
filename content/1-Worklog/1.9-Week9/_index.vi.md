@@ -14,13 +14,13 @@ pre: " <b> 1.9. </b> "
 - Hiểu kiến trúc data lake và tối ưu chi phí/hiệu suất bằng AWS Glue và Athena.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 1   | - Module 06-01: Database Concepts review <br> - Module 06-02: Amazon RDS & Amazon Aurora <br> - Module 06-03: Redshift - Elasticache  | 03/11/2025 | 03/11/2025      | <https://www.youtube.com/@AWSStudyGroup>
-| 3   | - Hands-on Lab: Amazon Relational Database Service (Amazon RDS) | 05/11/2025 | 05/11/2025      | <https://000005.awsstudygroup.com/> |
-| 4   | - Hands-on Lab: Data Lake on AWS | 06/11/2025 | 06/11/2025      | <https://000035.awsstudygroup.com/> |
-| 4-5   | - Hands-on Lab: Amazon DynamoDB Immersion Day | 06/11/2025 | 07/11/2025      | <https://000039.awsstudygroup.com/> |
-| 6   | - Hands-on Lab: Cost and performance analysis with AWS Glue and Amazon Athena | 08/11/2025 | 08/11/2025      | <https://000040.awsstudygroup.com/> |
+| Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- |
+| - Module 06-01: Database Concepts review <br> - Module 06-02: Amazon RDS & Amazon Aurora <br> - Module 06-03: Redshift - Elasticache  | 03/11/2025 | 03/11/2025      | <https://www.youtube.com/@AWSStudyGroup>
+| - Hands-on Lab: Amazon Relational Database Service (Amazon RDS) | 05/11/2025 | 05/11/2025      | <https://000005.awsstudygroup.com/> |
+| - Hands-on Lab: Data Lake on AWS | 06/11/2025 | 06/11/2025      | <https://000035.awsstudygroup.com/> |
+| - Hands-on Lab: Amazon DynamoDB Immersion Day | 06/11/2025 | 07/11/2025      | <https://000039.awsstudygroup.com/> |
+| - Hands-on Lab: Cost and performance analysis with AWS Glue and Amazon Athena | 08/11/2025 | 08/11/2025      | <https://000040.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 9:

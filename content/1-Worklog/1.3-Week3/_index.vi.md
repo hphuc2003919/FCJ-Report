@@ -15,13 +15,13 @@ pre: " <b> 1.3. </b> "
 - Thực hành các AWS networking labs: thiết lập VPC Peering và Transit Gateway.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 1   | - Brainstorm ý tưởng project và quyết định concept  | 22/09/2025 | 22/09/2025      |
-| 2   | - Phân công vai trò và trách nhiệm cho từng thành viên trong project       | 23/09/2025 | 23/09/2025      |
-| 3   | - Lập kế hoạch ban đầu: xác định scope, tasks và milestones | 24/09/2025 | 24/09/2025 |  |
-| 4   | - Hands-on Lab: Thiết lập VPC Peering giữa các AWS accounts | 25/09/2025 | 25/09/2025  | <https://000019.awsstudygroup.com/> |
-| 5   | - Hands-on Lab: Thiết lập AWS Transit Gateway cho multi-VPC connectivity | 26/09/2025 | 26/09/2025      | <https://000020.awsstudygroup.com/> |
+| Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- |
+| - Brainstorm ý tưởng project và quyết định concept  | 22/09/2025 | 22/09/2025      |
+| - Phân công vai trò và trách nhiệm cho từng thành viên trong project       | 23/09/2025 | 23/09/2025      |
+| - Lập kế hoạch ban đầu: xác định scope, tasks và milestones | 24/09/2025 | 24/09/2025 |  |
+| - Hands-on Lab: Thiết lập VPC Peering giữa các AWS accounts | 25/09/2025 | 25/09/2025  | <https://000019.awsstudygroup.com/> |
+| - Hands-on Lab: Thiết lập AWS Transit Gateway cho multi-VPC connectivity | 26/09/2025 | 26/09/2025      | <https://000020.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 3:

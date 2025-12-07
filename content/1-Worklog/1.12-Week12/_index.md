@@ -13,11 +13,11 @@ pre: " <b> 1.12. </b> "
 - Gain practical skills in incident response automation and cloud security monitoring.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Review AWS Well-Architected Framework and Security Pillar concepts <br> - Study IAM, MFA, SCP, Key Management Service (KMS), and Secrets Manager best practices  | 24/11/2025 | 24/11/2025      |
-| 5   | - Hands-on lab: implement secure IAM architecture, configure roles, policies, and permission boundaries   | 28/11/2025 | 28/11/2025      | 
-| 6   | - Attend AWS Cloud Mastery Series #3 – AWS Well-Architected Security Pillar | 29/11/2025 | 29/11/2025   | 
+| Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | 
+| - Review AWS Well-Architected Framework and Security Pillar concepts <br> - Study IAM, MFA, SCP, Key Management Service (KMS), and Secrets Manager best practices  | 24/11/2025 | 24/11/2025      |
+| - Hands-on lab: implement secure IAM architecture, configure roles, policies, and permission boundaries   | 28/11/2025 | 28/11/2025      | 
+| - Attend AWS Cloud Mastery Series #3 – AWS Well-Architected Security Pillar | 29/11/2025 | 29/11/2025   | 
 
 
 

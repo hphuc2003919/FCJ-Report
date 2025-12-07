@@ -14,13 +14,13 @@ pre: " <b> 1.5. </b> "
 - Gain hands-on experience with VM Import/Export and Amazon FSx for Windows File Server.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1-3   | - Complete and integrate frontend code with Processing Service and Query Service  | 06/10/2025 | 08/10/2025      |
-| 1-2   | - Translate Blog 1, 2, and 3 | 06/10/2025 | 07/10/2025      |  |
-| 3   | - Module 04-01: AWS Storage Services Overview <br> - Module 04-02: Amazon S3 – Access Points & Storage Classes <br> - Module 04-03: S3 Static Website, CORS, Access Control, Object Keys & Performance, Glacier <br> - Module 04-04: Snow Family, Storage Gateway, AWS Backup | 08/10/2025 | 08/10/2025      | <https://www.youtube.com/@AWSStudyGroup> |
-| 4   | - Hands-on Lab: VM Import/Export | 09/10/2025 | 09/10/2025      | <https://000014.awsstudygroup.com/> |
-| 5-6   | - Hands-on Lab: Amazon FSx for Windows File Server | 10/10/2025 | 11/10/2025      | <https://000025.awsstudygroup.com/> |
+| Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- |
+| - Complete and integrate frontend code with Processing Service and Query Service  | 06/10/2025 | 08/10/2025      |
+| - Translate Blog 1, 2, and 3 | 06/10/2025 | 07/10/2025      |  |
+| - Module 04-01: AWS Storage Services Overview <br> - Module 04-02: Amazon S3 – Access Points & Storage Classes <br> - Module 04-03: S3 Static Website, CORS, Access Control, Object Keys & Performance, Glacier <br> - Module 04-04: Snow Family, Storage Gateway, AWS Backup | 08/10/2025 | 08/10/2025      | <https://www.youtube.com/@AWSStudyGroup> |
+| - Hands-on Lab: VM Import/Export | 09/10/2025 | 09/10/2025      | <https://000014.awsstudygroup.com/> |
+| - Hands-on Lab: Amazon FSx for Windows File Server | 10/10/2025 | 11/10/2025      | <https://000025.awsstudygroup.com/> |
 
 
 ### Week 5 Achievements:

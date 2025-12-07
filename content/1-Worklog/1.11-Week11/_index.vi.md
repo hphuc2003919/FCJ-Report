@@ -14,12 +14,12 @@ pre: " <b> 1.11. </b> "
 - Học các kỹ thuật cost optimization cho các dự án AWS.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 1   | - Tham dự AWS Cloud Mastery Series #2 – DevOps on AWS   | 17/11/2025 | 17/11/2025      |
-| 2   | - Khám phá hybrid cloud strategies: kết nối cơ sở hạ tầng on-premises với AWS bằng VPN & Direct Connect <br> - Xem xét các use case của AWS Storage Gateway  | 18/11/2025 | 18/11/2025    |
-| 3   | - LHọc cách tích hợp kiến trúc serverless với workflow DevOps <br> - Hands-on Lab: triển khai Lambda functions được kích hoạt bởi sự kiện từ S3 | 19/11/2025 | 19/11/2025      | AWS Lambda Workshop |
-| 5   | - Nghiên cứu các chiến lược cost optimization cho dự án DevOps <br> - Thực hành sử dụng AWS Cost Explorer và Budgets cho multi-account setups | 21/11/2025 | 21/11/2025      | AWS Cost Management resources |
+| Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | 
+| - Tham dự AWS Cloud Mastery Series #2 – DevOps on AWS   | 17/11/2025 | 17/11/2025      |
+| - Khám phá hybrid cloud strategies: kết nối cơ sở hạ tầng on-premises với AWS bằng VPN & Direct Connect <br> - Xem xét các use case của AWS Storage Gateway  | 18/11/2025 | 18/11/2025    |
+| - LHọc cách tích hợp kiến trúc serverless với workflow DevOps <br> - Hands-on Lab: triển khai Lambda functions được kích hoạt bởi sự kiện từ S3 | 19/11/2025 | 19/11/2025      | AWS Lambda Workshop |
+| - Nghiên cứu các chiến lược cost optimization cho dự án DevOps <br> - Thực hành sử dụng AWS Cost Explorer và Budgets cho multi-account setups | 21/11/2025 | 21/11/2025      | AWS Cost Management resources |
 
 
 ### Kết quả đạt được tuần 11:

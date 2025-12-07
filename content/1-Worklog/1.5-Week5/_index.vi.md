@@ -14,13 +14,13 @@ pre: " <b> 1.5. </b> "
 - Thực hành hands-on với VM Import/Export và Amazon FSx for Windows File Server.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 1-3   | - Hoàn thiện và tích hợp frontend code với Processing Service và Query Service | 06/10/2025 | 08/10/2025      |
-| 1-2   | - Dịch Blog 1, 2 và 3 | 06/10/2025 | 07/10/2025      |  |
-| 3   | - Module 04-01: AWS Storage Services Overview <br> - Module 04-02: Amazon S3 – Access Points & Storage Classes <br> - Module 04-03: S3 Static Website, CORS, Access Control, Object Keys & Performance, Glacier <br> - Module 04-04: Snow Family, Storage Gateway, AWS Backup | 08/10/2025 | 08/10/2025      | <https://www.youtube.com/@AWSStudyGroup> |
-| 4   | - Hands-on Lab: VM Import/Export | 09/10/2025 | 09/10/2025      | <https://000014.awsstudygroup.com/> |
-| 5-6   | - Hands-on Lab: Amazon FSx for Windows File Server | 10/10/2025 | 11/10/2025      | <https://000025.awsstudygroup.com/> |
+| Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | 
+| - Hoàn thiện và tích hợp frontend code với Processing Service và Query Service | 06/10/2025 | 08/10/2025      |
+| - Dịch Blog 1, 2 và 3 | 06/10/2025 | 07/10/2025      |  |
+| - Module 04-01: AWS Storage Services Overview <br> - Module 04-02: Amazon S3 – Access Points & Storage Classes <br> - Module 04-03: S3 Static Website, CORS, Access Control, Object Keys & Performance, Glacier <br> - Module 04-04: Snow Family, Storage Gateway, AWS Backup | 08/10/2025 | 08/10/2025      | <https://www.youtube.com/@AWSStudyGroup> |
+| - Hands-on Lab: VM Import/Export | 09/10/2025 | 09/10/2025      | <https://000014.awsstudygroup.com/> |
+| - Hands-on Lab: Amazon FSx for Windows File Server | 10/10/2025 | 11/10/2025      | <https://000025.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 5:

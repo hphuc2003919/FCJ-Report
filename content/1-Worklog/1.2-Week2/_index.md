@@ -16,12 +16,12 @@ pre: " <b> 1.2. </b> "
 - Complete hands-on labs to reinforce practical VPC and hybrid networking skills.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Module 02-01: AWS Virtual Private Cloud (VPC) concepts and architecture. <br> - Module 02-02: VPC Security and Multi-VPC features (Security Groups, NACLs, VPC Peering, Transit Gateway). <br> - Module 02-03: VPN, DirectConnect, Load Balancers, Extra Resources.             | 16/09/2025 | 16/09/2025      | <https://www.youtube.com/@AWSStudyGroup>
-| 3   | - Hands-on Lab: Amazon VPC and AWS Site-to-Site VPN Workshop   | 17/09/2025 | 17/09/2025      | <https://000003.awsstudygroup.com/> |
-| 4   | - Participate in Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders | 18/09/2025 | 18/09/2025      |  |
-| 6   | - Hands-on Lab: Set up Hybrid DNS with Route 53 Resolver   <br>   | 20/09/2025 | 20/09/2025      | <https://000010.awsstudygroup.com/> |
+| Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- |
+| - Module 02-01: AWS Virtual Private Cloud (VPC) concepts and architecture. <br> - Module 02-02: VPC Security and Multi-VPC features (Security Groups, NACLs, VPC Peering, Transit Gateway). <br> - Module 02-03: VPN, DirectConnect, Load Balancers, Extra Resources.             | 16/09/2025 | 16/09/2025      | <https://www.youtube.com/@AWSStudyGroup>
+| - Hands-on Lab: Amazon VPC and AWS Site-to-Site VPN Workshop   | 17/09/2025 | 17/09/2025      | <https://000003.awsstudygroup.com/> |
+| - Participate in Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders | 18/09/2025 | 18/09/2025      |  |
+| - Hands-on Lab: Set up Hybrid DNS with Route 53 Resolver   <br>   | 20/09/2025 | 20/09/2025      | <https://000010.awsstudygroup.com/> |
 
 
 

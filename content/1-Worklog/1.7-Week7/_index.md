@@ -13,13 +13,13 @@ pre: " <b> 1.7. </b> "
 - Begin midterm preparation by reviewing security architecture and access control concepts.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Hands-on Lab: <br>&emsp; + LIMITATION OF USER RIGHTS WITH IAM PERMISSION BOUNDARY <br>&emsp; +  Encrypt at Rest with AWS KMS | 20/10/2025 | 20/10/2025      | - <https://000030.awsstudygroup.com/> <br> - <https://000033.awsstudygroup.com/>
-| 3   | - Hands-on Lab: IAM Role & Condition <br> - Practice designing IAM roles for applications  | 22/10/2025 | 22/10/2025      | <https://000044.awsstudygroup.com/> |
-| 4   | - Hands-on Lab: Granting authorization for an application to access AWS services with an IAM role | 23/10/2025 | 23/10/2025      | <https://000048.awsstudygroup.com/> |
-| 5   | - Review Secure Architectures: IAM, MFA, SCP, Security Groups, NACLs | 24/10/2025 | 24/10/2025  |  |
-| 6   | - Review Secure Architectures: Encryption (KMS, TLS/ACM), GuardDuty, Shield, WAF, Secrets Manager | 25/10/2025 | 25/10/2025      | |
+| Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | 
+| - Hands-on Lab: <br>&emsp; + LIMITATION OF USER RIGHTS WITH IAM PERMISSION BOUNDARY <br>&emsp; +  Encrypt at Rest with AWS KMS | 20/10/2025 | 20/10/2025      | - <https://000030.awsstudygroup.com/> <br> - <https://000033.awsstudygroup.com/>
+| - Hands-on Lab: IAM Role & Condition <br> - Practice designing IAM roles for applications  | 22/10/2025 | 22/10/2025      | <https://000044.awsstudygroup.com/> |
+| - Hands-on Lab: Granting authorization for an application to access AWS services with an IAM role | 23/10/2025 | 23/10/2025      | <https://000048.awsstudygroup.com/> |
+| - Review Secure Architectures: IAM, MFA, SCP, Security Groups, NACLs | 24/10/2025 | 24/10/2025  |  |
+| - Review Secure Architectures: Encryption (KMS, TLS/ACM), GuardDuty, Shield, WAF, Secrets Manager | 25/10/2025 | 25/10/2025      | |
 
 
 ### Week 7 Achievements:

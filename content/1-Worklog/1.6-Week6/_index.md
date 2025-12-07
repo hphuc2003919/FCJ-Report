@@ -15,12 +15,12 @@ pre: " <b> 1.6. </b> "
 - Explore practical cost optimization techniques for EC2 using Lambda.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1-2   | - Module 05-01: Shared Responsibility Model <br> - Module 05-02: Amazon Identity and Access Management (IAM) <br> - Module 05-03: Amazon Cognito <br> - Module 05-04: AWS Organizations <br> - Module 05-05: AWS Identity Center <br> - Module 05-06: Amazon Key Management Service (KMS) <br> - Module 05-07: AWS Security Hub <br> - Module 05-08: Hands-on and Additional Research   | 13/10/2025 | 14/10/2025      | https://www.youtube.com/@AWSStudyGroup
-| 4   | - Hands-on Lab: <br>&emsp; + Get started with AWS Security Hub <br>&emsp; + Optimizing EC2 Costs with Lambda| 16/10/2025 | 16/10/2025      | - <https://000018.awsstudygroup.com/> <br> - <https://000022.awsstudygroup.com/> |
-| 5   | - Hands-on Lab: Manage Resources Using Tags and Resource Groups | 17/10/2025 | 17/10/2025      | <https://000027.awsstudygroup.com/> |
-| 5-6   | - Hands-on Lab: Manage Access to EC2 Services with Resource Tags through IAM Services  | 17/10/2025 | 18/10/2025      | <https://000028.awsstudygroup.com/> |
+| Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | 
+| - Module 05-01: Shared Responsibility Model <br> - Module 05-02: Amazon Identity and Access Management (IAM) <br> - Module 05-03: Amazon Cognito <br> - Module 05-04: AWS Organizations <br> - Module 05-05: AWS Identity Center <br> - Module 05-06: Amazon Key Management Service (KMS) <br> - Module 05-07: AWS Security Hub <br> - Module 05-08: Hands-on and Additional Research   | 13/10/2025 | 14/10/2025      | https://www.youtube.com/@AWSStudyGroup
+| - Hands-on Lab: <br>&emsp; + Get started with AWS Security Hub <br>&emsp; + Optimizing EC2 Costs with Lambda| 16/10/2025 | 16/10/2025      | - <https://000018.awsstudygroup.com/> <br> - <https://000022.awsstudygroup.com/> |
+| - Hands-on Lab: Manage Resources Using Tags and Resource Groups | 17/10/2025 | 17/10/2025      | <https://000027.awsstudygroup.com/> |
+| - Hands-on Lab: Manage Access to EC2 Services with Resource Tags through IAM Services  | 17/10/2025 | 18/10/2025      | <https://000028.awsstudygroup.com/> |
 
 
 ### Week 6 Achievements:

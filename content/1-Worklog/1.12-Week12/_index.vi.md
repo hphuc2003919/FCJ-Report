@@ -14,11 +14,11 @@ pre: " <b> 1.12 </b> "
 - Trang bị kỹ năng thực tế về incident response automation và giám sát bảo mật trên cloud.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 1   | - Ôn tập AWS Well-Architected Framework và các khái niệm của Security Pillar <br> - Học best practices cho IAM, MFA, SCP, Key Management Service (KMS), và Secrets Manager  | 24/11/2025 | 24/11/2025      |
-| 5   | - Hands-on Lab: triển khai secure IAM architecture, cấu hình roles, policies, và permission boundaries  | 28/11/2025 | 28/11/2025      | 
-| 6   | - Tham dự AWS Cloud Mastery Series #3 – AWS Well-Architected Security Pillar | 29/11/2025 | 29/11/2025   | 
+| Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | 
+| - Ôn tập AWS Well-Architected Framework và các khái niệm của Security Pillar <br> - Học best practices cho IAM, MFA, SCP, Key Management Service (KMS), và Secrets Manager  | 24/11/2025 | 24/11/2025      |
+| - Hands-on Lab: triển khai secure IAM architecture, cấu hình roles, policies, và permission boundaries  | 28/11/2025 | 28/11/2025      | 
+| - Tham dự AWS Cloud Mastery Series #3 – AWS Well-Architected Security Pillar | 29/11/2025 | 29/11/2025   | 
 
 
 ### Kết quả đạt được tuần 12:

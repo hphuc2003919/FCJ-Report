@@ -15,13 +15,13 @@ pre: " <b> 1.4. </b> "
 - Start translating blogs.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| Whole week   | - Develop the frontend code for the group project   | 29/09/2025 | 03/10/2025      |
-| 1   | - Module 03-01 – Compute VM on AWS: <br>&emsp; + EC2 Instance Types <br>&emsp; + AMI / Backup / Key Pair <br>&emsp; + EBS <br>&emsp; + Instance Store <br>&emsp; + User Data <br>&emsp; + Meta Data <br>&emsp; + EC2 Auto Scaling <br>&emsp;  | 29/09/2025 | 29/09/2025      | <https://www.youtube.com/@AWSStudyGroup> |
-| 2   | - Module 03-02 – EC2 Autoscaling, EFS, FSx, Lightsail, MGN <br> - Hands-on Labs: <br>&emsp; + Deploy AWS Backup to the System <br>&emsp; + Using File Storage Gateway| 30/09/2025 | 30/09/2025 | - <https://cloudjourney.awsstudygroup.com/> <br> - <https://000013.awsstudygroup.com/> <br> - <https://000024.awsstudygroup.com/>      |
-| 3-4   | - Hands-on Lab: Starting with Amazon S3 | 01/10/2025 | 02/10/2025 | <https://000057.awsstudygroup.com/> |
-| 5-7  | - Translating blogs | 03/10/2025 |  |  |
+| Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- |
+| - Develop the frontend code for the group project   | 29/09/2025 | 03/10/2025      |
+| - Module 03-01 – Compute VM on AWS: <br>&emsp; + EC2 Instance Types <br>&emsp; + AMI / Backup / Key Pair <br>&emsp; + EBS <br>&emsp; + Instance Store <br>&emsp; + User Data <br>&emsp; + Meta Data <br>&emsp; + EC2 Auto Scaling <br>&emsp;  | 29/09/2025 | 29/09/2025      | <https://www.youtube.com/@AWSStudyGroup> |
+| - Module 03-02 – EC2 Autoscaling, EFS, FSx, Lightsail, MGN <br> - Hands-on Labs: <br>&emsp; + Deploy AWS Backup to the System <br>&emsp; + Using File Storage Gateway| 30/09/2025 | 30/09/2025 | - <https://cloudjourney.awsstudygroup.com/> <br> - <https://000013.awsstudygroup.com/> <br> - <https://000024.awsstudygroup.com/>      |
+| - Hands-on Lab: Starting with Amazon S3 | 01/10/2025 | 02/10/2025 | <https://000057.awsstudygroup.com/> |
+| - Translating blogs | 03/10/2025 |  |  |
 
 
 ### Week 4 Achievements:

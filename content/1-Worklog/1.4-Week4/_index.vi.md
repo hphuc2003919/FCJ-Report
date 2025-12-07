@@ -15,13 +15,13 @@ pre: " <b> 1.4. </b> "
 - Bắt đầu dịch các bài blog.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| Cả tuần   | - Phát triển frontend code cho dự án nhóm   | 29/09/2025 | 03/10/2025      |
-| 1   | - Module 03-01 – Compute VM on AWS: <br>&emsp; + EC2 Instance Types <br>&emsp; + AMI / Backup / Key Pair <br>&emsp; + EBS <br>&emsp; + Instance Store <br>&emsp; + User Data <br>&emsp; + Meta Data <br>&emsp; + EC2 Auto Scaling <br>&emsp;  | 29/09/2025 | 29/09/2025      | <https://www.youtube.com/@AWSStudyGroup> |
-| 2   | - Module 03-02 – EC2 Autoscaling, EFS, FSx, Lightsail, MGN <br> - Hands-on Labs: <br>&emsp; + Deploy AWS Backup to the System <br>&emsp; + Using File Storage Gateway| 30/09/2025 | 30/09/2025 | - <https://cloudjourney.awsstudygroup.com/> <br> - <https://000013.awsstudygroup.com/> <br> - <https://000024.awsstudygroup.com/>      |
-| 3-4   | - Hands-on Lab: Starting with Amazon S3 | 01/10/2025 | 02/10/2025 | <https://000057.awsstudygroup.com/> |
-| 5-7  | - Dịch blog | 03/10/2025 |  |  |
+| Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | 
+| - Phát triển frontend code cho dự án nhóm   | 29/09/2025 | 03/10/2025      |
+| - Module 03-01 – Compute VM on AWS: <br>&emsp; + EC2 Instance Types <br>&emsp; + AMI / Backup / Key Pair <br>&emsp; + EBS <br>&emsp; + Instance Store <br>&emsp; + User Data <br>&emsp; + Meta Data <br>&emsp; + EC2 Auto Scaling <br>&emsp;  | 29/09/2025 | 29/09/2025      | <https://www.youtube.com/@AWSStudyGroup> |
+| - Module 03-02 – EC2 Autoscaling, EFS, FSx, Lightsail, MGN <br> - Hands-on Labs: <br>&emsp; + Deploy AWS Backup to the System <br>&emsp; + Using File Storage Gateway| 30/09/2025 | 30/09/2025 | - <https://cloudjourney.awsstudygroup.com/> <br> - <https://000013.awsstudygroup.com/> <br> - <https://000024.awsstudygroup.com/>      |
+| - Hands-on Lab: Starting with Amazon S3 | 01/10/2025 | 02/10/2025 | <https://000057.awsstudygroup.com/> |
+| - Dịch blog | 03/10/2025 |  |  |
 
 
 ### Kết quả đạt được tuần 4:

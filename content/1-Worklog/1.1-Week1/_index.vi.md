@@ -17,15 +17,15 @@ pre: " <b> 1.1. </b> "
 * Thực hành qua các lab: tạo tài khoản, bảo mật, quản lý người dùng, ngân sách, và hỗ trợ.
 
 ### Các công việc cần triển khai trong tuần này:
-| Ngày | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 1   | - Đọc và ghi chú các chính sách và hướng dẫn của chương trình FCJ.  | 08/09/2025 | 08/09/2025      | <https://policies.fcjuni.com/>
-| 2   | - Tìm hiểu về AWS và các nhóm dịch vụ chính: <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + Security <br>&emsp; + ... <br>   | 09/09/2025 | 09/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 3   | - Module 01-01: Điện Toán Đám Mây Là Gì? <br> - Module 01-02: Điều Gì Tạo Nên Sự Khác Biệt Của AWS? <br> - Module 01-03: Bắt Đầu Hành Trình Lên Mây Như Thế Nào <br> | 10/09/2025 | 10/09/2025      | <https://www.youtube.com/@AWSStudyGroup> |
-| 4   | - Module 01-04: Hạ Tầng Toàn Cầu Của AWS <br> - Module 01-05: Công Cụ Quản Lý AWS Services <br> - Module 01-06: Tối Ưu Hóa Chi Phí Trên AWS & Làm Việc Với AWS Support | 11/09/2025 | 11/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Hands-on Labs: <br>&emsp; + Tạo tài khoản AWS <br>&emsp; + Thiết lập thiết bị MFA ảo <br>&emsp; + Tạo nhóm quản trị & người dùng quản trị <br>&emsp; + Hỗ trợ xác thực tài khoản <br> | 12/09/2025 | 12/09/2025      | <https://000001.awsstudygroup.com/> |
-| 6   | - Hands-on Labs: <br>&emsp; + Tạo Budgets (Cost, Usage, RI, Savings Plans) <br>&emsp; + Xóa Budgets sau khi hoàn tất <br> | 13/09/2025 | 13/09/2025      | <https://000007.awsstudygroup.com/> |
-| 7   | - Hands-on Labs: <br>&emsp; + Các gói hỗ trợ của AWS <br>&emsp; + Các loại yêu cầu hỗ trợ <br>&emsp; + Thay đổi gói hỗ trợ <br>&emsp; + Quản lý yêu cầu hỗ trợ <br> | 14/09/2025 | 14/09/2025      | <https://000009.awsstudygroup.com/> |
+| Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | 
+| - Đọc và ghi chú các chính sách và hướng dẫn của chương trình FCJ.  | 08/09/2025 | 08/09/2025      | <https://policies.fcjuni.com/>
+| - Tìm hiểu về AWS và các nhóm dịch vụ chính: <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + Security <br>&emsp; + ... <br>   | 09/09/2025 | 09/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| - Module 01-01: Điện Toán Đám Mây Là Gì? <br> - Module 01-02: Điều Gì Tạo Nên Sự Khác Biệt Của AWS? <br> - Module 01-03: Bắt Đầu Hành Trình Lên Mây Như Thế Nào <br> | 10/09/2025 | 10/09/2025      | <https://www.youtube.com/@AWSStudyGroup> |
+| - Module 01-04: Hạ Tầng Toàn Cầu Của AWS <br> - Module 01-05: Công Cụ Quản Lý AWS Services <br> - Module 01-06: Tối Ưu Hóa Chi Phí Trên AWS & Làm Việc Với AWS Support | 11/09/2025 | 11/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| - Hands-on Labs: <br>&emsp; + Tạo tài khoản AWS <br>&emsp; + Thiết lập thiết bị MFA ảo <br>&emsp; + Tạo nhóm quản trị & người dùng quản trị <br>&emsp; + Hỗ trợ xác thực tài khoản <br> | 12/09/2025 | 12/09/2025      | <https://000001.awsstudygroup.com/> |
+| - Hands-on Labs: <br>&emsp; + Tạo Budgets (Cost, Usage, RI, Savings Plans) <br>&emsp; + Xóa Budgets sau khi hoàn tất <br> | 13/09/2025 | 13/09/2025      | <https://000007.awsstudygroup.com/> |
+| - Hands-on Labs: <br>&emsp; + Các gói hỗ trợ của AWS <br>&emsp; + Các loại yêu cầu hỗ trợ <br>&emsp; + Thay đổi gói hỗ trợ <br>&emsp; + Quản lý yêu cầu hỗ trợ <br> | 14/09/2025 | 14/09/2025      | <https://000009.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 1:

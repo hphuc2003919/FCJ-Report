@@ -13,13 +13,13 @@ pre: " <b> 1.8. </b> "
 - Practice core AWS services and integration concepts.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Review Resilient Architectures: Multi-AZ, Multi-Region, Disaster Recovery strategies  | 27/10/2025 | 27/10/2025      |
-| 2   | - Review Resilient Architectures: Auto Scaling, Route 53, Load Balancing, Backup & Restore   | 28/10/2025 | 28/10/2025      |
-| 3   | - Review High-Performing Architectures: EC2 Auto Scaling, Lambda, Fargate | 29/10/2025 | 29/10/2025      |  |
-| 4   | - Review High-Performing Architectures: S3/EFS/EBS performance, caching, CloudFront, Global Accelerator | 30/10/2025 | 30/10/2025  | |
-| 5   | - Taking mid-term exam | 31/10/2025 | 31/10/2025      | |
+| Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | 
+| - Review Resilient Architectures: Multi-AZ, Multi-Region, Disaster Recovery strategies  | 27/10/2025 | 27/10/2025      |
+| - Review Resilient Architectures: Auto Scaling, Route 53, Load Balancing, Backup & Restore   | 28/10/2025 | 28/10/2025      |
+| - Review High-Performing Architectures: EC2 Auto Scaling, Lambda, Fargate | 29/10/2025 | 29/10/2025      |  |
+| - Review High-Performing Architectures: S3/EFS/EBS performance, caching, CloudFront, Global Accelerator | 30/10/2025 | 30/10/2025  | |
+| - Taking mid-term exam | 31/10/2025 | 31/10/2025      | |
 
 
 ### Week 8 Achievements:

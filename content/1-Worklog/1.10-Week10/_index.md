@@ -13,12 +13,12 @@ pre: " <b> 1.10. </b> "
 - Explore real-time data streaming, transformation, cataloging, and visualization.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Hands-on Labs: <br>&emsp; + Work with Amazon DynamoDB  <br>&emsp; + Build a data lake with your data    | 11/11/2025 | 11/11/2025      | - <https://000060.awsstudygroup.com/> <br> - <https://000070.awsstudygroup.com/>
-| 3   | - Hands-on Lab: Analytics on AWS Workshop | 12/11/2025 | 12/11/2025      | <https://000072.awsstudygroup.com/> |
-| 5   | - Hands-on Lab: Get started with Amazon QuickSight | 14/11/2025 | 14/11/2025      | <https://000073.awsstudygroup.com/> |
-| 6   | - Attend AWS Cloud Mastery Series #1 – AI/ML/GenAI on AWS | 15/11/2025 | 15/11/2025      |  |
+| Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- |
+| - Hands-on Labs: <br>&emsp; + Work with Amazon DynamoDB  <br>&emsp; + Build a data lake with your data    | 11/11/2025 | 11/11/2025      | - <https://000060.awsstudygroup.com/> <br> - <https://000070.awsstudygroup.com/>
+| - Hands-on Lab: Analytics on AWS Workshop | 12/11/2025 | 12/11/2025      | <https://000072.awsstudygroup.com/> |
+| - Hands-on Lab: Get started with Amazon QuickSight | 14/11/2025 | 14/11/2025      | <https://000073.awsstudygroup.com/> |
+| - Attend AWS Cloud Mastery Series #1 – AI/ML/GenAI on AWS | 15/11/2025 | 15/11/2025      |  |
 
 
 ### Week 10 Achievements:

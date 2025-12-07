@@ -14,12 +14,12 @@ pre: " <b> 1.10. </b> "
 - Khám phá real-time data streaming, chuyển đổi dữ liệu, quản lý catalog, và trực quan hóa dữ liệu.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Hands-on Labs: <br>&emsp; + Work with Amazon DynamoDB  <br>&emsp; + Build a data lake with your data    | 11/11/2025 | 11/11/2025      | - <https://000060.awsstudygroup.com/> <br> - <https://000070.awsstudygroup.com/>
-| 3   | - Hands-on Lab: Analytics on AWS Workshop | 12/11/2025 | 12/11/2025      | <https://000072.awsstudygroup.com/> |
-| 5   | - Hands-on Lab: Get started with Amazon QuickSight | 14/11/2025 | 14/11/2025      | <https://000073.awsstudygroup.com/> |
-| 6   | - Tham dự AWS Cloud Mastery Series #1 – AI/ML/GenAI on AWS | 15/11/2025 | 15/11/2025      |  |
+| Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | 
+| - Hands-on Labs: <br>&emsp; + Work with Amazon DynamoDB  <br>&emsp; + Build a data lake with your data    | 11/11/2025 | 11/11/2025      | - <https://000060.awsstudygroup.com/> <br> - <https://000070.awsstudygroup.com/>
+| - Hands-on Lab: Analytics on AWS Workshop | 12/11/2025 | 12/11/2025      | <https://000072.awsstudygroup.com/> |
+| - Hands-on Lab: Get started with Amazon QuickSight | 14/11/2025 | 14/11/2025      | <https://000073.awsstudygroup.com/> |
+| - Tham dự AWS Cloud Mastery Series #1 – AI/ML/GenAI on AWS | 15/11/2025 | 15/11/2025      |  |
 
 
 ### Kết quả đạt được tuần 10:
