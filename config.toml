@@ -19,6 +19,8 @@ home = [ "HTML", "RSS", "JSON"]
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
+  ordersectionsby = "weight"
+  orderpagesby = "weight"
   
 [Languages]
 [Languages.en]

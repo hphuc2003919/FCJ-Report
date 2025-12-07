@@ -5,104 +5,138 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-Tại phần này, bạn cần tóm tắt các nội dung trong workshop mà bạn **dự tính** sẽ làm.
+## Hệ thống Phân tích Tệp Đa Nền tảng (Multi-Platform File Analysis System) - Clone VirusTotal
 
-# IoT Weather Platform for Lab Research  
-## Giải pháp AWS Serverless hợp nhất cho giám sát thời tiết thời gian thực  
+### 1. Tóm tắt dự án
+Dự án này nhằm mục đích phát triển và triển khai một hệ thống phân tích tệp đa nền tảng, hoạt động tương tự như VirusTotal. Hệ thống sẽ cho phép người dùng tải lên các tệp đáng ngờ để được quét và phân tích bởi nhiều công cụ chống phần mềm độc hại (antivirus engines) và dịch vụ phân tích khác nhau. Mục tiêu chính là cung cấp một công cụ mạnh mẽ, dễ sử dụng để phát hiện và đánh giá các mối đe dọa tiềm ẩn từ tệp, góp phần nâng cao an ninh mạng.
 
-### 1. Tóm tắt điều hành  
-IoT Weather Platform được thiết kế dành cho nhóm *ITea Lab* tại TP. Hồ Chí Minh nhằm nâng cao khả năng thu thập và phân tích dữ liệu thời tiết. Nền tảng hỗ trợ tối đa 5 trạm thời tiết, có khả năng mở rộng lên 10–15 trạm, sử dụng thiết bị biên Raspberry Pi kết hợp cảm biến ESP32 để truyền dữ liệu qua MQTT. Nền tảng tận dụng các dịch vụ AWS Serverless để cung cấp giám sát thời gian thực, phân tích dự đoán và tiết kiệm chi phí, với quyền truy cập giới hạn cho 5 thành viên phòng lab thông qua Amazon Cognito.  
+Hệ thống sẽ được xây dựng và triển khai hoàn toàn trên nền tảng điện toán đám mây Amazon Web Services (AWS), tận dụng các dịch vụ quản lý, khả năng mở rộng và bảo mật hàng đầu của AWS để đảm bảo hiệu suất, độ tin cậy và tính sẵn sàng cao.
 
-### 2. Tuyên bố vấn đề  
-*Vấn đề hiện tại*  
-Các trạm thời tiết hiện tại yêu cầu thu thập dữ liệu thủ công, khó quản lý khi có nhiều trạm. Không có hệ thống tập trung cho dữ liệu hoặc phân tích thời gian thực, và các nền tảng bên thứ ba thường tốn kém và quá phức tạp.  
+### 2. Vấn đề đặt ra
+#### Vấn đề
+Trong bối cảnh các mối đe dọa an ninh mạng ngày càng tinh vi và phổ biến, nhu cầu về các công cụ phân tích tệp hiệu quả là vô cùng cấp thiết. VirusTotal đã chứng minh được giá trị của mình như một dịch vụ cộng đồng quan trọng, giúp người dùng và các chuyên gia an ninh mạng nhanh chóng xác định các tệp độc hại. Dự án này ra đời với mong muốn tạo ra một giải pháp tương tự, có thể tùy chỉnh và mở rộng, phục vụ cho các mục đích nghiên cứu, giáo dục hoặc ứng dụng cụ thể.
 
-*Giải pháp*  
-Nền tảng sử dụng AWS IoT Core để tiếp nhận dữ liệu MQTT, AWS Lambda và API Gateway để xử lý, Amazon S3 để lưu trữ (bao gồm data lake), và AWS Glue Crawlers cùng các tác vụ ETL để trích xuất, chuyển đổi, tải dữ liệu từ S3 data lake sang một S3 bucket khác để phân tích. AWS Amplify với Next.js cung cấp giao diện web, và Amazon Cognito đảm bảo quyền truy cập an toàn. Tương tự như Thingsboard và CoreIoT, người dùng có thể đăng ký thiết bị mới và quản lý kết nối, nhưng nền tảng này hoạt động ở quy mô nhỏ hơn và phục vụ mục đích sử dụng nội bộ. Các tính năng chính bao gồm bảng điều khiển thời gian thực, phân tích xu hướng và chi phí vận hành thấp.  
+#### Giải pháp
+Nền tảng này mang lại một giao diện web tập trung, nơi người dùng có thể:
+- Tải lên các tệp tin khả nghi (chương trình thực thi, script, tài liệu văn phòng).
+- Gửi tên miền, địa chỉ IP hoặc URL để phân tích.
+- Tự động quét dữ liệu bằng nhiều công cụ antivirus, môi trường sandbox và nguồn OSINT.
+- Kết hợp kết quả với các nguồn tình báo mối đe dọa nhằm nâng cao độ chính xác.
+- Chia sẻ kết quả đã được ẩn danh với cộng đồng nghiên cứu để tăng tính hợp tác.
 
-*Lợi ích và hoàn vốn đầu tư (ROI)*  
-Giải pháp tạo nền tảng cơ bản để các thành viên phòng lab phát triển một nền tảng IoT lớn hơn, đồng thời cung cấp nguồn dữ liệu cho những người nghiên cứu AI phục vụ huấn luyện mô hình hoặc phân tích. Nền tảng giảm bớt báo cáo thủ công cho từng trạm thông qua hệ thống tập trung, đơn giản hóa quản lý và bảo trì, đồng thời cải thiện độ tin cậy dữ liệu. Chi phí hàng tháng ước tính 0,66 USD (theo AWS Pricing Calculator), tổng cộng 7,92 USD cho 12 tháng. Tất cả thiết bị IoT đã được trang bị từ hệ thống trạm thời tiết hiện tại, không phát sinh chi phí phát triển thêm. Thời gian hoàn vốn 6–12 tháng nhờ tiết kiệm đáng kể thời gian thao tác thủ công.  
+Người dùng gửi yêu cầu phân tích tệp tin hoặc URL qua giao diện Web App. Quy trình được xử lý theo hai hướng:  
 
-### 3. Kiến trúc giải pháp  
-Nền tảng áp dụng kiến trúc AWS Serverless để quản lý dữ liệu từ 5 trạm dựa trên Raspberry Pi, có thể mở rộng lên 15 trạm. Dữ liệu được tiếp nhận qua AWS IoT Core, lưu trữ trong S3 data lake và xử lý bởi AWS Glue Crawlers và ETL jobs để chuyển đổi và tải vào một S3 bucket khác cho mục đích phân tích. Lambda và API Gateway xử lý bổ sung, trong khi Amplify với Next.js cung cấp bảng điều khiển được bảo mật bởi Cognito.  
+1. **Truy vấn nhanh (Query Service):**  
+   - Nếu tệp/URL đã được phân tích trước đó, Web Server gửi hash đến Query Service.  
+   - Query Service kiểm tra dữ liệu trong DynamoDB.  
+   - Nếu có kết quả, hệ thống phản hồi ngay cho người dùng qua giao diện web.  
 
-![IoT Weather Station Architecture](/images/2-Proposal/edge_architecture.jpeg)
+2. **Xử lý mới (Processing Service):**  
+   - Nếu dữ liệu chưa có trong cơ sở dữ liệu, hệ thống chuyển tệp/URL thô đến Processing Service.  
+   - Processing Service thực hiện phân tích, quét và tạo báo cáo.  
+   - Kết quả phân tích được gửi về Web Server để trả lại cho người dùng, đồng thời lưu trữ trong DynamoDB để phục vụ cho các truy vấn sau.  
 
-![IoT Weather Platform Architecture](/images/2-Proposal/platform_architecture.jpeg)
+Cách tiếp cận này giúp giảm thời gian phản hồi cho các yêu cầu lặp lại, đồng thời đảm bảo khả năng mở rộng khi có nhiều yêu cầu xử lý mới.  
 
-*Dịch vụ AWS sử dụng*  
-- *AWS IoT Core*: Tiếp nhận dữ liệu MQTT từ 5 trạm, mở rộng lên 15.  
-- *AWS Lambda*: Xử lý dữ liệu và kích hoạt Glue jobs (2 hàm).  
-- *Amazon API Gateway*: Giao tiếp với ứng dụng web.  
-- *Amazon S3*: Lưu trữ dữ liệu thô (data lake) và dữ liệu đã xử lý (2 bucket).  
-- *AWS Glue*: Crawlers lập chỉ mục dữ liệu, ETL jobs chuyển đổi và tải dữ liệu.  
-- *AWS Amplify*: Lưu trữ giao diện web Next.js.  
-- *Amazon Cognito*: Quản lý quyền truy cập cho người dùng phòng lab.  
+#### Mục tiêu
+- Phát triển chức năng cốt lõi: Xây dựng giao diện người dùng (UI) cho phép tải tệp lên, một dịch vụ truy vấn để kiểm tra kết quả phân tích đã có, và một dịch vụ xử lý để thực hiện phân tích tệp mới.
+- Tích hợp đa công cụ: Khả năng tích hợp với nhiều công cụ quét và phân tích khác nhau (ví dụ: các API của các công cụ antivirus, sandbox phân tích tĩnh/động).
+- Triển khai trên AWS: Thiết kế và triển khai kiến trúc hệ thống trên AWS để đảm bảo tính sẵn sàng cao, khả năng mở rộng linh hoạt và bảo mật mạnh mẽ.
+- Tối ưu hóa chi phí: Xây dựng một kiến trúc hiệu quả về chi phí, tận dụng các dịch vụ AWS phù hợp với quy mô dự án.
+- Xây dựng quy trình CI/CD: Thiết lập quy trình Tích hợp liên tục/Triển khai liên tục (CI/CD) để tự động hóa việc phát triển và triển khai ứng dụng.
 
-*Thiết kế thành phần*  
-- *Thiết bị biên*: Raspberry Pi thu thập và lọc dữ liệu cảm biến, gửi tới IoT Core.  
-- *Tiếp nhận dữ liệu*: AWS IoT Core nhận tin nhắn MQTT từ thiết bị biên.  
-- *Lưu trữ dữ liệu*: Dữ liệu thô lưu trong S3 data lake; dữ liệu đã xử lý lưu ở một S3 bucket khác.  
-- *Xử lý dữ liệu*: AWS Glue Crawlers lập chỉ mục dữ liệu; ETL jobs chuyển đổi để phân tích.  
-- *Giao diện web*: AWS Amplify lưu trữ ứng dụng Next.js cho bảng điều khiển và phân tích thời gian thực.  
-- *Quản lý người dùng*: Amazon Cognito giới hạn 5 tài khoản hoạt động.  
+### 3. Kiến trúc hệ thống
+#### Tổng quan
 
-### 4. Triển khai kỹ thuật  
-*Các giai đoạn triển khai*  
-Dự án gồm 2 phần — thiết lập trạm thời tiết biên và xây dựng nền tảng thời tiết — mỗi phần trải qua 4 giai đoạn:  
-1. *Nghiên cứu và vẽ kiến trúc*: Nghiên cứu Raspberry Pi với cảm biến ESP32 và thiết kế kiến trúc AWS Serverless (1 tháng trước kỳ thực tập).  
-2. *Tính toán chi phí và kiểm tra tính khả thi*: Sử dụng AWS Pricing Calculator để ước tính và điều chỉnh (Tháng 1).  
-3. *Điều chỉnh kiến trúc để tối ưu chi phí/giải pháp*: Tinh chỉnh (ví dụ tối ưu Lambda với Next.js) để đảm bảo hiệu quả (Tháng 2).  
-4. *Phát triển, kiểm thử, triển khai*: Lập trình Raspberry Pi, AWS services với CDK/SDK và ứng dụng Next.js, sau đó kiểm thử và đưa vào vận hành (Tháng 2–3).  
+![High Level View 2](/images/high-level-view-2.drawio.png)
 
-*Yêu cầu kỹ thuật*  
-- *Trạm thời tiết biên*: Cảm biến (nhiệt độ, độ ẩm, lượng mưa, tốc độ gió), vi điều khiển ESP32, Raspberry Pi làm thiết bị biên. Raspberry Pi chạy Raspbian, sử dụng Docker để lọc dữ liệu và gửi 1 MB/ngày/trạm qua MQTT qua Wi-Fi.  
-- *Nền tảng thời tiết*: Kiến thức thực tế về AWS Amplify (lưu trữ Next.js), Lambda (giảm thiểu do Next.js xử lý), AWS Glue (ETL), S3 (2 bucket), IoT Core (gateway và rules), và Cognito (5 người dùng). Sử dụng AWS CDK/SDK để lập trình (ví dụ IoT Core rules tới S3). Next.js giúp giảm tải Lambda cho ứng dụng web fullstack.  
+1. Người dùng gửi yêu cầu phân tích tệp.
+2. Máy chủ Web (Web Server) gửi yêu cầu đến Dịch vụ Truy vấn (Query Service). (Truy vấn bằng cách sử dụng mã băm - hash của tệp)
+3. Dịch vụ Truy vấn giao tiếp với Cơ sở dữ liệu (Database).
+4. Cơ sở dữ liệu phản hồi lại Dịch vụ Truy vấn.
+5. Dịch vụ Truy vấn phản hồi lại Máy chủ Web.
+6. Nếu truy vấn thành công, gửi phản hồi HTML cho Người dùng.
+7. Nếu không thành công, thì gửi tệp đến Dịch vụ Xử lý (Processing Service). (Máy chủ Web nên giữ dữ liệu tệp thô)
+8. Dịch vụ Xử lý gửi báo cáo trở lại Máy chủ Web.
+9. Đồng thời lưu trữ báo cáo vào Cơ sở dữ liệu.
+10. Cơ sở dữ liệu đồng bộ hóa.
 
-### 5. Lộ trình & Mốc triển khai  
-- *Trước thực tập (Tháng 0)*: 1 tháng lên kế hoạch và đánh giá trạm cũ.  
-- *Thực tập (Tháng 1–3)*:  
-    - Tháng 1: Học AWS và nâng cấp phần cứng.  
-    - Tháng 2: Thiết kế và điều chỉnh kiến trúc.  
-    - Tháng 3: Triển khai, kiểm thử, đưa vào sử dụng.  
-- *Sau triển khai*: Nghiên cứu thêm trong vòng 1 năm.  
+#### Sơ đồ AWS
 
-### 6. Ước tính ngân sách  
-Có thể xem chi phí trên [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01)  
-Hoặc tải [tệp ước tính ngân sách](../attachments/budget_estimation.pdf).  
+![High Level View](/images/high-level-view-finalOfFinal.drawio.png)
 
-*Chi phí hạ tầng*  
-- AWS Lambda: 0,00 USD/tháng (1.000 request, 512 MB lưu trữ).  
-- S3 Standard: 0,15 USD/tháng (6 GB, 2.100 request, 1 GB quét).  
-- Truyền dữ liệu: 0,02 USD/tháng (1 GB vào, 1 GB ra).  
-- AWS Amplify: 0,35 USD/tháng (256 MB, request 500 ms).  
-- Amazon API Gateway: 0,01 USD/tháng (2.000 request).  
-- AWS Glue ETL Jobs: 0,02 USD/tháng (2 DPU).  
-- AWS Glue Crawlers: 0,07 USD/tháng (1 crawler).  
-- MQTT (IoT Core): 0,08 USD/tháng (5 thiết bị, 45.000 tin nhắn).  
+- **Tầng Web App (UI):**  
+  Người dùng truy cập qua ALB, yêu cầu được phân phối đến các EC2 trong Auto Scaling Group. Tầng này chịu trách nhiệm giao diện và tiếp nhận request.  
 
-*Tổng*: 0,7 USD/tháng, 8,40 USD/12 tháng  
-- *Phần cứng*: 265 USD một lần (Raspberry Pi 5 và cảm biến).  
+- **Tầng Services:**  
+  Bao gồm **Query Service** và **Processing Service**, được triển khai trong Auto Scaling Group ở các subnet riêng.  
+  - **Query Service:** Kết nối với DynamoDB để xử lý các yêu cầu truy vấn hash.  
+  - **Processing Service:** Nhận dữ liệu thô, phân tích mã độc, tạo báo cáo, sau đó lưu kết quả vào DynamoDB.  
 
-### 7. Đánh giá rủi ro  
-*Ma trận rủi ro*  
-- Mất mạng: Ảnh hưởng trung bình, xác suất trung bình.  
-- Hỏng cảm biến: Ảnh hưởng cao, xác suất thấp.  
-- Vượt ngân sách: Ảnh hưởng trung bình, xác suất thấp.  
+- **Tầng Dữ liệu:**  
+  **Amazon DynamoDB** lưu trữ cả hai dạng dữ liệu:  
+  - **View:** Kết quả phân tích sẵn sàng cho người dùng.  
+  - **Event Store:** Nhật ký và dữ liệu thô phục vụ phân tích chi tiết.  
 
-*Chiến lược giảm thiểu*  
-- Mạng: Lưu trữ cục bộ trên Raspberry Pi với Docker.  
-- Cảm biến: Kiểm tra định kỳ, dự phòng linh kiện.  
-- Chi phí: Cảnh báo ngân sách AWS, tối ưu dịch vụ.  
+- **Khả năng mở rộng:**  
+  Cả Web App và Services đều dùng Auto Scaling Group, đảm bảo hệ thống có thể đáp ứng nhiều yêu cầu song song mà vẫn duy trì hiệu năng. 
 
-*Kế hoạch dự phòng*  
-- Quay lại thu thập thủ công nếu AWS gặp sự cố.  
-- Sử dụng CloudFormation để khôi phục cấu hình liên quan đến chi phí.  
+#### Các dịch vụ AWS được sử dụng
+Hệ thống sử dụng các dịch vụ AWS chính sau:  
 
-### 8. Kết quả kỳ vọng  
-*Cải tiến kỹ thuật*: Dữ liệu và phân tích thời gian thực thay thế quy trình thủ công. Có thể mở rộng tới 10–15 trạm.  
-*Giá trị dài hạn*: Nền tảng dữ liệu 1 năm cho nghiên cứu AI, có thể tái sử dụng cho các dự án tương lai.
+- **Amazon VPC (Virtual Private Cloud):** Tạo mạng ảo riêng, chia thành nhiều subnet (10.0.100.0/24, 10.0.101.0/24, 10.0.102.0/24, 10.0.103.0/24) trong các Availability Zone khác nhau để tăng tính sẵn sàng.  
+- **Elastic Load Balancer (ALB):** Phân phối lưu lượng từ người dùng đến các Web App (UI) chạy trên EC2.  
+- **Amazon EC2:** Chạy ứng dụng Web và các dịch vụ xử lý.  
+- **Auto Scaling Group:** Tự động mở rộng hoặc thu hẹp số lượng EC2 để đảm bảo hiệu năng và tiết kiệm chi phí.  
+- **Amazon DynamoDB:** Cơ sở dữ liệu NoSQL dùng để lưu trữ báo cáo phân tích, kết quả truy vấn và dữ liệu đồng bộ giữa các service.  
+
+
+### 5. Lộ trình & Mốc phát triển
+
+#### Kế hoạch dự án
+
+- **Trong kỳ thực tập (Tháng 1–3):** 3 tháng.  
+  - Tháng 1: Nghiên cứu AWS và thử nghiệm 
+  - Tháng 2: Thiết kế và điều chỉnh kiến trúc.  
+  - Tháng 3: Triển khai, kiểm thử và đưa hệ thống vào hoạt động.  
+
+### 6. Ước tính ngân sách
+
+- Dịch vụ AWS:
+
+  - EC2 instances: 6 × t4g.nano (6 × 0.0042 × 720h): $18.14
+  - EBS: 6 × 20 GB = 120 GB × $0.10/GB: $12.00
+  - Load Balancer (ALB): 1 ALB, lưu lượng nhẹ: $15.00
+  - NAT instance: 1 × t4g.nano (thay thế NAT Gateway): $3.02
+  - DynamoDB: 10 GB, on-demand nhỏ: $5.00
+  - Data transfer OUT: 100 GB × $0.09/GB: $9.00
+  - CloudWatch & misc: Nhật ký (logs) + chỉ số cơ bản (basic metrics): $3.00
+
+
+Tổng cộng: ≈ $69.14 / tháng
+
+Dưới đây là phiên bản tiếng Việt, bám sát định dạng mẫu bạn yêu cầu:
+
+### 7. Đánh giá Rủi ro (Risk Assessment)
+#### Ma trận Rủi ro
+- **Lây nhiễm Mã độc:** Tác động cao, xác suất thấp.
+- **Giới hạn API:** Tác động cao, xác suất trung bình.
+- **Vượt ngân sách:** Tác động trung bình, xác suất thấp.
+
+#### Chiến lược Giảm thiểu
+- **Mã độc:** Cô lập mạng nghiêm ngặt (Private Subnets) và không thực thi tệp trên server.
+- **API:** Lưu đệm (Cache) kết quả vào DynamoDB để giảm số lần gọi API bên ngoài.
+- **Chi phí:** Thiết lập cảnh báo ngân sách AWS và giới hạn tối đa cho Auto Scaling.
+
+#### Kế hoạch Dự phòng
+- Chuyển sang chế độ "Chỉ tra cứu Cache" nếu API bên thứ 3 bị lỗi.
+- Hủy bỏ hạ tầng nhanh chóng bằng Terraform nếu chi phí tăng đột biến.
+
+### 8. Kết quả Mong đợi (Expected Outcomes)
+#### Cải tiến Kỹ thuật
+Quy trình quét tự động thay thế hoàn toàn việc kiểm tra thủ công.
+Hệ thống đạt tính sẵn sàng cao nhờ AWS Auto Scaling.
+#### Giá trị Dài hạn
+Cơ sở dữ liệu tập trung giúp tra cứu nhanh các mối đe dọa đã biết.
+Mã nguồn hạ tầng (Terraform) có thể tái sử dụng cho các dự án tương lai.

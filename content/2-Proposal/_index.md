@@ -5,111 +5,134 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-In this section, you need to summarize the contents of the workshop that you **plan** to conduct.
+## Multi-Platform File Analysis System - VirusTotal Clone
 
-# IoT Weather Platform for Lab Research
-## A Unified AWS Serverless Solution for Real-Time Weather Monitoring
+### 1. Project Summary
+This project aims to develop and deploy a multi-platform file analysis system, operating similarly to VirusTotal. The system will allow users to upload suspicious files for scanning and analysis by multiple antivirus engines and various other analysis services. The primary goal is to provide a powerful, user-friendly tool for detecting and assessing potential file-based threats, thereby enhancing cybersecurity.
 
-### 1. Executive Summary
-The IoT Weather Platform is designed for the ITea Lab team in Ho Chi Minh City to enhance weather data collection and analysis. It supports up to 5 weather stations, with potential scalability to 10-15, utilizing Raspberry Pi edge devices with ESP32 sensors to transmit data via MQTT. The platform leverages AWS Serverless services to deliver real-time monitoring, predictive analytics, and cost efficiency, with access restricted to 5 lab members via Amazon Cognito.
+The system will be entirely built and deployed on the Amazon Web Services (AWS) cloud platform, leveraging AWS's leading managed services, scalability, and security features to ensure high performance, reliability, and availability.
 
 ### 2. Problem Statement
-### What’s the Problem?
-Current weather stations require manual data collection, becoming unmanageable with multiple units. There is no centralized system for real-time data or analytics, and third-party platforms are costly and overly complex.
+#### The Challenge
+In an increasingly sophisticated and prevalent cybersecurity threat landscape, the demand for effective file analysis tools is paramount. VirusTotal has proven its value as a critical community service, helping users and cybersecurity professionals quickly identify malicious files. This project is initiated with the desire to create a similar, customizable, and extensible solution, serving research, educational, or specific application purposes.
 
-### The Solution
-The platform uses AWS IoT Core to ingest MQTT data, AWS Lambda and API Gateway for processing, Amazon S3 for storage (including a data lake), and AWS Glue Crawlers and ETL jobs to extract, transform, and load data from the S3 data lake to another S3 bucket for analysis. AWS Amplify with Next.js provides the web interface, and Amazon Cognito ensures secure access. Similar to Thingsboard and CoreIoT, users can register new devices and manage connections, though this platform operates on a smaller scale and is designed for private use. Key features include real-time dashboards, trend analysis, and low operational costs.
+#### The Solution
+This platform provides a centralized web interface where users can:
+- Upload suspicious files (executables, scripts, office documents).  
+- Submit domains, IP addresses, or URLs for analysis.  
+- Automatically scan data with multiple antivirus engines, sandbox environments, and OSINT sources.  
+- Correlate results with threat intelligence feeds to improve detection accuracy.  
+- Share anonymized reports with the research community to foster collaboration.  
 
-### Benefits and Return on Investment
-The solution establishes a foundational resource for lab members to develop a larger IoT platform, serving as a study resource, and provides a data foundation for AI enthusiasts for model training or analysis. It reduces manual reporting for each station via a centralized platform, simplifying management and maintenance, and improves data reliability. Monthly costs are $0.66 USD per the AWS Pricing Calculator, with a 12-month total of $7.92 USD. All IoT equipment costs are covered by the existing weather station setup, eliminating additional development expenses. The break-even period of 6-12 months is achieved through significant time savings from reduced manual work.
+Analysis requests are processed in two different ways:  
+
+1. **Fast Query (Query Service):**  
+   - If the file/URL has already been analyzed, the Web Server sends its hash to the Query Service.  
+   - The Query Service checks DynamoDB for existing results.  
+   - If found, results are instantly returned to the user via the web interface.  
+
+2. **New Processing (Processing Service):**  
+   - If the data is not yet available, the system forwards the raw file/URL to the Processing Service.  
+   - The Processing Service performs in-depth analysis, scanning, and report generation.  
+   - Results are sent back to the Web Server for user delivery and simultaneously stored in DynamoDB for future queries.  
+
+This hybrid approach reduces response times for repeated requests while ensuring scalability for new analyses.  
+
+#### Objectives
+- Develop Core Functionality: Build a user interface (UI) that allows file uploads, a query service to check for existing analysis results, and a processing service to perform new file analyses.
+- Multi-Engine Integration: Enable integration with various scanning and analysis tools (e.g., APIs of antivirus engines, static/dynamic analysis sandboxes).
+- AWS Deployment: Design and deploy the system architecture on AWS to ensure high availability, flexible scalability, and robust security.
+- Cost Optimization: Build a cost-effective architecture, leveraging appropriate AWS services for the project's scale.
+- Establish CI/CD Pipeline: Set up a Continuous Integration/Continuous Delivery (CI/CD) pipeline to automate application development and deployment.
 
 ### 3. Solution Architecture
-The platform employs a serverless AWS architecture to manage data from 5 Raspberry Pi-based stations, scalable to 15. Data is ingested via AWS IoT Core, stored in an S3 data lake, and processed by AWS Glue Crawlers and ETL jobs to transform and load it into another S3 bucket for analysis. Lambda and API Gateway handle additional processing, while Amplify with Next.js hosts the dashboard, secured by Cognito. The architecture is detailed below:
 
-![IoT Weather Station Architecture](/images/2-Proposal/edge_architecture.jpeg)
+#### Summary
 
-![IoT Weather Platform Architecture](/images/2-Proposal/platform_architecture.jpeg)
+![High Level View 2](/images/high-level-view-2.drawio.png)
 
-### AWS Services Used
-- **AWS IoT Core**: Ingests MQTT data from 5 stations, scalable to 15.
-- **AWS Lambda**: Processes data and triggers Glue jobs (two functions).
-- **Amazon API Gateway**: Facilitates web app communication.
-- **Amazon S3**: Stores raw data in a data lake and processed outputs (two buckets).
-- **AWS Glue**: Crawlers catalog data, and ETL jobs transform and load it.
-- **AWS Amplify**: Hosts the Next.js web interface.
-- **Amazon Cognito**: Secures access for lab users.
 
-### Component Design
-- **Edge Devices**: Raspberry Pi collects and filters sensor data, sending it to IoT Core.
-- **Data Ingestion**: AWS IoT Core receives MQTT messages from the edge devices.
-- **Data Storage**: Raw data is stored in an S3 data lake; processed data is stored in another S3 bucket.
-- **Data Processing**: AWS Glue Crawlers catalog the data, and ETL jobs transform it for analysis.
-- **Web Interface**: AWS Amplify hosts a Next.js app for real-time dashboards and analytics.
-- **User Management**: Amazon Cognito manages user access, allowing up to 5 active accounts.
+  1. User sends analysis request for file.
+  2. Web Server sends request to Query Service. (Query using file hash)
+  3. Query Service communicates with Database.
+  4. Database responds to Query Service.
+  5. Query Service responds to Web Server.
+  6. If query successful send HTML response to User.
+  7. If not then send file to Processing Service. (Web Server should hold raw file data)
+  8. Processing Service sends report back to Web Server.
+  9. Also stores report in Database.
+  10. Database syncs.
 
-### 4. Technical Implementation
-**Implementation Phases**
-This project has two parts—setting up weather edge stations and building the weather platform—each following 4 phases:
-- Build Theory and Draw Architecture: Research Raspberry Pi setup with ESP32 sensors and design the AWS serverless architecture (1 month pre-internship)
-- Calculate Price and Check Practicality: Use AWS Pricing Calculator to estimate costs and adjust if needed (Month 1).
-- Fix Architecture for Cost or Solution Fit: Tweak the design (e.g., optimize Lambda with Next.js) to stay cost-effective and usable (Month 2).
-- Develop, Test, and Deploy: Code the Raspberry Pi setup, AWS services with CDK/SDK, and Next.js app, then test and release to production (Months 2-3).
+#### Diagram for AWS
 
-**Technical Requirements**
-- Weather Edge Station: Sensors (temperature, humidity, rainfall, wind speed), a microcontroller (ESP32), and a Raspberry Pi as the edge device. Raspberry Pi runs Raspbian, handles Docker for filtering, and sends 1 MB/day per station via MQTT over Wi-Fi.
-- Weather Platform: Practical knowledge of AWS Amplify (hosting Next.js), Lambda (minimal use due to Next.js), AWS Glue (ETL), S3 (two buckets), IoT Core (gateway and rules), and Cognito (5 users). Use AWS CDK/SDK to code interactions (e.g., IoT Core rules to S3). Next.js reduces Lambda workload for the fullstack web app.
+![High Level View](/images/high-level-view-finalOfFinal.drawio.png)
 
-### 5. Timeline & Milestones
-**Project Timeline**
-- Pre-Internship (Month 0): 1 month for planning and old station review.
-- Internship (Months 1-3): 3 months.
-    - Month 1: Study AWS and upgrade hardware.
-    - Month 2: Design and adjust architecture.
-    - Month 3: Implement, test, and launch.
-- Post-Launch: Up to 1 year for research.
+- **Web App Layer (UI):**  
+  Users access the system through the ALB, which distributes requests to EC2 instances in the Auto Scaling Group. This layer handles the interface and request intake.  
+
+- **Services Layer:**  
+  Includes the **Query Service** and **Processing Service**, both deployed in Auto Scaling Groups within private subnets.  
+  - **Query Service:** Connects to DynamoDB to handle hash-based queries.  
+  - **Processing Service:** Receives raw data, performs malware analysis, generates reports, and stores results in DynamoDB.  
+
+- **Data Layer:**  
+  **Amazon DynamoDB** stores two categories of data:  
+  - **View:** Analysis results ready for user consumption.  
+  - **Event Store:** Logs and raw data for deeper investigations.  
+
+- **Scalability:**  
+  Both the Web App and Services layers use Auto Scaling Groups to ensure the system can handle high request volumes without compromising performance.  
+
+#### AWS Services Used
+The system leverages the following key AWS services:  
+
+- **Amazon VPC (Virtual Private Cloud):** Creates an isolated virtual network, divided into multiple subnets (10.0.100.0/24, 10.0.101.0/24, 10.0.102.0/24, 10.0.103.0/24) across Availability Zones for high availability.  
+- **Elastic Load Balancer (ALB):** Distributes incoming traffic to Web App (UI) instances running on EC2.  
+- **Amazon EC2:** Hosts the Web App and backend services.  
+- **Auto Scaling Group:** Dynamically scales the number of EC2 instances to maintain performance and cost efficiency.  
+- **Amazon DynamoDB:** A NoSQL database that stores analysis reports, query results, and service synchronization data.  
+
+### 5. Roadmap & Development Milestones
+
+#### Project Plan:
+- **During internship (Months 1–3):** 3 months in total.  
+  - Month 1: Research AWS and upgrade hardware.  
+  - Month 2: Design and refine the system architecture.  
+  - Month 3: Deploy, test, and launch the system.  
 
 ### 6. Budget Estimation
-You can find the budget estimation on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01).  
-Or you can download the [Budget Estimation File](../attachments/budget_estimation.pdf).
-
-### Infrastructure Costs
+#### Infrastructure Costs
 - AWS Services:
-    - AWS Lambda: $0.00/month (1,000 requests, 512 MB storage).
-    - S3 Standard: $0.15/month (6 GB, 2,100 requests, 1 GB scanned).
-    - Data Transfer: $0.02/month (1 GB inbound, 1 GB outbound).
-    - AWS Amplify: $0.35/month (256 MB, 500 ms requests).
-    - Amazon API Gateway: $0.01/month (2,000 requests).
-    - AWS Glue ETL Jobs: $0.02/month (2 DPUs).
-    - AWS Glue Crawlers: $0.07/month (1 crawler).
-    - MQTT (IoT Core): $0.08/month (5 devices, 45,000 messages).
+    - EC2 instances:	6 × t4g.nano (6 × 0.0042 × 720h): $18.14
+    - EBS	6 × 20 GB  = 120 GB × $0.10/GB:	$12.00
+    - Load Balancer (ALB)	1 ALB, light traffic:	$15.00
+    - NAT instance	1 × t4g.nano (replacement NAT Gateway):	$3.02
+    - DynamoDB	10 GB, small on-demand:	$5.00
+    - Data transfer OUT	100 GB × $0.09/GB:	$9.00
+    - CloudWatch & misc	Logs + basicmetrics:	$3.00
 
-Total: $0.7/month, $8.40/12 months
-
-- Hardware: $265 one-time (Raspberry Pi 5 and sensors).
+Total		≈ $69.14 / month
 
 ### 7. Risk Assessment
 #### Risk Matrix
-- Network Outages: Medium impact, medium probability.
-- Sensor Failures: High impact, low probability.
-- Cost Overruns: Medium impact, low probability.
+- **Malware Infection:** High impact, low probability.
+- **API Rate Limiting:** High impact, medium probability.
+- **Cost Overruns:** Medium impact, low probability.
 
 #### Mitigation Strategies
-- Network: Local storage on Raspberry Pi with Docker.
-- Sensors: Regular checks and spares.
-- Cost: AWS budget alerts and optimization.
+- **Malware:** Strict network isolation (Private Subnets) and non-execution policies.
+- **API:** Caching analysis results in DynamoDB to minimize external calls.
+- **Cost:** AWS Budget alerts and Auto Scaling limits.
 
 #### Contingency Plans
-- Revert to manual methods if AWS fails.
-- Use CloudFormation for cost-related rollbacks.
+- Switch to "Cached Only" mode if external APIs fail.
+- Rapid infrastructure teardown via Terraform if costs spike.
 
 ### 8. Expected Outcomes
-#### Technical Improvements: 
-Real-time data and analytics replace manual processes.  
-Scalable to 10-15 stations.
+#### Technical Improvements
+- Automated scanning workflow replaces manual checks.
+- High availability achieved through AWS Auto Scaling.
 #### Long-term Value
-1-year data foundation for AI research.  
-Reusable for future projects.
+- Centralized threat database for instant hash lookups.
+- Reusable Terraform modules for future cloud projects.
