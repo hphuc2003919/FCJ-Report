@@ -1,19 +1,45 @@
 ---
-title : "Giới thiệu"
-date :  2025-09-09 
-weight : 1
-chapter : false
-pre : " <b> 5.1. </b> "
+title: "Tổng Quan Workshop"
+date: 2025-09-09
+weight: 1
+chapter: false
+pre: " <b> 5.1. </b> "
 ---
 
-#### Giới thiệu về VPC Endpoint
+## Workshop: Triển Khai Hạ Tầng File Analyzer với Terraform
 
-+ Điểm cuối VPC (endpoint) là thiết bị ảo. Chúng là các thành phần VPC có thể mở rộng theo chiều ngang, dự phòng và có tính sẵn sàng cao. Chúng cho phép giao tiếp giữa tài nguyên điện toán của bạn và dịch vụ AWS mà không gây ra rủi ro về tính sẵn sàng.
-+ Tài nguyên điện toán đang chạy trong VPC có thể truy cập Amazon S3 bằng cách sử dụng điểm cuối Gateway. Interface Endpoint  PrivateLink có thể được sử dụng bởi tài nguyên chạy trong VPC hoặc tại TTDL.
+### Giới Thiệu
 
-#### Tổng quan về workshop
-Trong workshop này, bạn sẽ sử dụng hai VPC.
-+ **"VPC Cloud"** dành cho các tài nguyên cloud như Gateway endpoint và EC2 instance để kiểm tra.
-+ **"VPC On-Prem"** mô phỏng môi trường truyền thống như nhà máy hoặc trung tâm dữ liệu của công ty. Một EC2 Instance chạy phần mềm StrongSwan VPN đã được triển khai trong "VPC On-prem" và được cấu hình tự động để thiết lập đường hầm VPN Site-to-Site với AWS Transit Gateway. VPN này mô phỏng kết nối từ một vị trí tại TTDL (on-prem) với AWS cloud. Để giảm thiểu chi phí, chỉ một phiên bản VPN được cung cấp để hỗ trợ workshop này. Khi lập kế hoạch kết nối VPN cho production workloads của bạn, AWS khuyên bạn nên sử dụng nhiều thiết bị VPN để có tính sẵn sàng cao.
+Trong workshop thực hành này, bạn sẽ triển khai một hạ tầng hoàn chỉnh cho ứng dụng phân tích file trên AWS sử dụng Terraform. Hạ tầng bao gồm auto-scaling groups, load balancers, VPC endpoints và tích hợp S3 - tất cả được cung cấp dưới dạng Infrastructure as Code.
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+### Tổng Quan Kiến Trúc
+
+Hạ tầng bao gồm:
+- **VPC** với public và private subnets trên 2 availability zones
+- **Application Load Balancer (ALB)** để phân phối traffic
+- **2 Auto Scaling Groups**:
+  - Public ASG: Tầng frontend/web
+  - Private ASG: Tầng backend/xử lý
+- **S3 Gateway Endpoint** để truy cập S3 an toàn
+- **Security Groups** để cô lập mạng
+- **IAM Roles** cho quyền EC2
+
+### Bạn Sẽ Học Được
+
+- Khởi tạo và cấu hình Terraform cho AWS
+- Triển khai hạ tầng đa tầng sử dụng Terraform modules
+- Cấu hình auto-scaling groups và load balancers
+- Thiết lập VPC endpoints để truy cập dịch vụ AWS an toàn
+- Xác minh và kiểm tra hạ tầng đã triển khai
+- Dọn dẹp tài nguyên hiệu quả
+
+### Thời Gian Cần Thiết
+
+**Thời lượng ước tính:** 20 phút
+
+### Quy Trình Workshop
+
+1. **Yêu Cầu Tiên Quyết** (2 phút) - Thiết lập công cụ và credentials
+2. **Thiết Lập Hạ Tầng** (10 phút) - Cấu hình và triển khai
+3. **Xác Minh** (5 phút) - Kiểm tra ứng dụng
+4. **Dọn Dẹp** (3 phút) - Xóa tất cả tài nguyên
